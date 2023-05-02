@@ -10,7 +10,6 @@ public class BackScreen {
         this.fileNumber = 0;
         this.passengers = new ArrayList<>();
         createPassengerList();
-        System.out.println(this.titleCSV);
     }
 
     public String filter(String pClass,String gender,String embarked,String passengerName,String ticketNumber,String cabin,String passengerNumMin,String passengerNumMax,String sibSp,
