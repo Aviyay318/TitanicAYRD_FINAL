@@ -203,8 +203,6 @@ public class Passenger {
     }
 
 
-
-
     public String toString() {
         String output="";
         output+= "Passenger ID: " + this.id +", Status: " + this.survived+ ", Class: " + this.pClass+ ", Name: " + getFormattedName();

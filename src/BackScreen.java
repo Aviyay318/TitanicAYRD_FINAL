@@ -316,22 +316,40 @@ public class BackScreen {
     }
 
     private  Passenger createNewPassenger(String[] dataOfPassenger) {
-        Integer id = Integer.parseInt(dataOfPassenger[0]);
-        Integer survived = Integer.parseInt(dataOfPassenger[1]);
-        Integer pClass = Integer.parseInt(dataOfPassenger[2]);
+        Integer id = null;
+        if (!dataOfPassenger[0].equals("")){
+            id = Integer.parseInt(dataOfPassenger[0]);
+        }
+        Integer survived = null;
+        if (!dataOfPassenger[1].equals("")){
+            survived = Integer.parseInt(dataOfPassenger[1]);
+        }
+        Integer pClass = null;
+        if (!dataOfPassenger[2].equals("")){
+            pClass = Integer.parseInt(dataOfPassenger[2]);
+        }
         String name = dataOfPassenger[3] + dataOfPassenger[4];
         String gender =  dataOfPassenger[5] ;
         Float age = null;
         if (!dataOfPassenger[6].equals("")){
             age = Float.valueOf(dataOfPassenger[6]);
         }
-        Integer sibSp = Integer.parseInt(dataOfPassenger[7]);
-        Integer parCh = Integer.parseInt(dataOfPassenger[8]);
+        Integer sibSp = null;
+        if (!dataOfPassenger[7].equals("")){
+            sibSp = Integer.parseInt(dataOfPassenger[7]);
+        }
+        Integer parCh = null;
+        if (!dataOfPassenger[8].equals("")){
+            parCh = Integer.parseInt(dataOfPassenger[8]);
+        }
         String ticket = dataOfPassenger[9];
-        Double fare = Double.valueOf(dataOfPassenger[10]);
+        Double fare = null;
+        if (!dataOfPassenger[10].equals("")){
+            fare = Double.valueOf(dataOfPassenger[10]);
+        }
         String cabin= dataOfPassenger[11];
         Character embarked = null;
-        if (dataOfPassenger.length==13){
+        if (dataOfPassenger.length==13&&!dataOfPassenger[12].equals("")){
             embarked = dataOfPassenger[12].charAt(0);
         }
         return new Passenger(id,survived,pClass,name,gender,age,sibSp,parCh,ticket,fare,cabin,embarked);

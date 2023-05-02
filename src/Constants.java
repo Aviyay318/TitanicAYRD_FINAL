@@ -23,8 +23,6 @@ public class Constants {
     public static final int X_LABEL = 500;
     public static final int Y_LABEL = 400;
     public static final int SPACE = 20;
-    public static final int X_BUTTON=270;
-    public static final int Y_BUTTON=270;
     public static final int WIDTH_BUTTON= 100;
     public static final int HEIGHT_BUTTON=45;
     public static final int Y_LABEL_SPACE=30;
@@ -33,8 +31,6 @@ public class Constants {
     public static final int PCLASS_THREE=3;
     public static final String FIRST_CLASS= "1st";
     public static final String SECOND_CLASS="2nd";
-    public static final String THIRD_CLASS="3rd";
-    public static final String CHARBURGH_NAME= "charburgh";
     public static final char CHARBURGH_CHAR= 'C';
     public static final char QUEENSTOWN_CHAR= 'Q';
     public static final String QUEENSTOWN_NAME= "queenstown";
