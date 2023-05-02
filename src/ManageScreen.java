@@ -53,14 +53,16 @@ public class ManageScreen extends JPanel {
     private void createJBottom() {
         BackScreen backScreen = new BackScreen();
         this.filter = new JButton("Filter");
-        this.filter.setBounds(this.ticketCostMin.getX()+50,this.ticketCostMin.getY()+100,Constants.WIDTH_BUTTON,Constants.HEIGHT_BUTTON);
+        this.filter.setBounds(this.ticketCostMin.getX()+50,this.ticketCostMin.getY()+Constants.SPACE*5,Constants.WIDTH_BUTTON,Constants.HEIGHT_BUTTON);
         this.add(this.filter);
         this.filter.setBackground(Color.white);
         this.filter.addActionListener(e -> {
-            backScreen.filter(this.classPComboBox.getItemAt(this.classPComboBox.getSelectedIndex()),this.classPComboBox.getItemAt(this.classPComboBox.getSelectedIndex())
-            ,this.classPComboBox.getItemAt(this.classPComboBox.getSelectedIndex()),this.passengerName.getText(),this.ticketNumber.getText(),this.cabin.getText(),
+            JLabel dialogMassage=new JLabel();
+            JOptionPane.showMessageDialog(dialogMassage,  backScreen.filter(this.classPComboBox.getItemAt(this.classPComboBox.getSelectedIndex()),this.genderComboBox.getItemAt(this.genderComboBox.getSelectedIndex())
+                    ,this.embarkedComboBox.getItemAt(this.embarkedComboBox.getSelectedIndex()),this.passengerName.getText(),this.ticketNumber.getText(),this.cabin.getText(),
                     this.passengerNumMin.getText(),this.passengerNumMax.getText(),this.sibSp.getText(),this.ticketCostMin.getText()
-                    ,this.ticketCostMax.getText(),this.parCh.getText());
+                    ,this.ticketCostMax.getText(),this.parCh.getText()));
+
 
             this.filter.setText("Open File");
             this.filter.addActionListener(e1 -> {
@@ -74,7 +76,7 @@ public class ManageScreen extends JPanel {
 
         this.open = new JButton("Open File");
         this.statistics = new JButton("Statistics");
-        this.statistics.setBounds(this.parCh.getX()-50,this.parCh.getY()+100,Constants.WIDTH_BUTTON,Constants.HEIGHT_BUTTON);
+        this.statistics.setBounds(this.parCh.getX()-50,this.parCh.getY()+Constants.SPACE*5,Constants.WIDTH_BUTTON,Constants.HEIGHT_BUTTON);
         this.add(this.statistics);
         this.statistics.setBackground(Color.white);
         this.statistics.addActionListener(e -> {
