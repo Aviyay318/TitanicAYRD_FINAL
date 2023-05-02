@@ -84,7 +84,7 @@ public class BackScreen {
         for (Passenger passenger: this.passengers) {
             if (!gender.equals("All")){
                 if (!passenger.identicalGender(gender) ){
-                    passengerFilter.remove(passenger);
+                    this.passengerFilter.remove(passenger);
                 }}}
     }
     private int returnClassNumber(String pClass){
@@ -95,9 +95,7 @@ public class BackScreen {
         }
         return classNum;
     }
-
-
-    private  void passengerNameFilter( List <Passenger> passengerFilter,String passengerName){
+    private  void passengerNameFilter(String passengerName){
         for (Passenger passenger: this.passengers) {
             if (!passengerName.equals("")){
                 if (passenger.isContainedInName(passengerName)) {
@@ -107,12 +105,11 @@ public class BackScreen {
             }
         }
     }
-
-    private  void embarkedFilter( List <Passenger> passengerFilter,String embarked){
+    private  void removeEmbarkedFilter(String embarked){
         for (Passenger passenger: this.passengers) {
             if (!embarked.equals("")){
                 if (!passenger.identicalEmbarked(returnEmbarked(embarked))) {
-                    passengerFilter.remove(passenger);
+                    this.passengerFilter.remove(passenger);
                 }}}
     }
     private char returnEmbarked(String embarked){
@@ -134,7 +131,7 @@ public class BackScreen {
         for (Passenger passenger: this.passengerFilter) {
             if (!cabin.equals("")){
                 if (!passenger.isContainedInCabin(cabin)) {
-                    passengerFilter.remove(passenger);
+                    this.passengerFilter.remove(passenger);
                 }
             }
 
@@ -143,7 +140,7 @@ public class BackScreen {
         for (Passenger passenger: this.passengerFilter) {
             if (!passengerNumMin.equals("")){
                 if (!passenger.isBiggerId(Integer.parseInt(passengerNumMin))){
-                    passengerFilter.remove(passenger);
+                    this.passengerFilter.remove(passenger);
                 }
             }
         }}
@@ -151,7 +148,7 @@ public class BackScreen {
         for (Passenger passenger: this.passengerFilter) {
             if (!passengerNumMax.equals("")){
                 if (passenger.isBiggerId(Integer.parseInt(passengerNumMax))){
-                    passengerFilter.remove(passenger);
+                    this.passengerFilter.remove(passenger);
                 }
             }
         }
@@ -160,7 +157,7 @@ public class BackScreen {
         for (Passenger passenger: this.passengerFilter) {
             if (!sibSp.equals("")){
                 if (!passenger.isContainedInSibSp(sibSp)){
-                    passengerFilter.remove(passenger);
+                    this.passengerFilter.remove(passenger);
                 }
             }
         }
@@ -169,7 +166,7 @@ public class BackScreen {
         for (Passenger passenger: this.passengerFilter) {
             if (!ticketCostMin.equals("")){
                 if (!passenger.isBiggerFare(Float.valueOf(ticketCostMin))){
-                    passengerFilter.remove(passenger);
+                    this.passengerFilter.remove(passenger);
                 }
             }
         }
@@ -178,7 +175,7 @@ public class BackScreen {
         for (Passenger passenger: this.passengerFilter) {
             if (!ticketCostMax.equals("")){
                 if (passenger.isBiggerFare(Float.valueOf(ticketCostMax))){
-                    passengerFilter.remove(passenger);
+                    this.passengerFilter.remove(passenger);
                 }
             }
         }
@@ -187,7 +184,7 @@ public class BackScreen {
         for (Passenger passenger: this.passengerFilter) {
             if (!parCh.equals("")){
                 if (!passenger.isContainedInParCh(Integer.parseInt(parCh))){
-                    passengerFilter.remove(passenger);
+                    this.passengerFilter.remove(passenger);
                 }
             }
         }
@@ -195,25 +192,24 @@ public class BackScreen {
     public void statistics(){
         String lines = "";
         lines += "Classes: \n" + classStatist();
-        lines+="\n" + genderStatistics();
-        lines+="\n" + embarkedStatist();
-        lines+="\n" +fareStatistics();
-        lines+="\n" +ageStatistics();
-        lines+="\n" + relativesStatistics();
+        lines+= "\n" + "Genders: \n" + genderStatistics();
+        lines+= "\n" + "Embarked: \n" + embarkedStatist();
+        lines+= "\n" + "Fare: \n" + fareStatistics();
+        lines+= "\n" + "Age: \n" + ageStatistics();
+        lines+= "\n" + "Relatives: \n" + relativesStatistics();
         createStatisticFile(lines);
     }
-
     private void createStatisticFile(String lines){
         File file = new File("statistic.txt");
         try {
             boolean success =  file.createNewFile();
             if (success){
-                System.out.println("good");
+                System.out.println("File created successfully");
             }else {
-                System.out.println("exist");
+                System.out.println("File already exists");
             }
         }catch (IOException e){
-            System.out.println("cant");
+            System.out.println("Something happened, cannot create file.");
         }
         if (file.exists()){
             try {
@@ -225,10 +221,7 @@ public class BackScreen {
             }catch (IOException e){
                 e.printStackTrace();
             }
-
         }
-
-
     }
     private String classStatist() {
         String classStatistLinens = "";
@@ -240,10 +233,9 @@ public class BackScreen {
             all = classFilter.size();
             survived = howManySurvived(classFilter);
             result= (survived/all)*Constants.ONE_HUNDRED_PERCENT;
-            classStatistLinens +="class " + i + ": ";
-            classStatistLinens+=Float.toString(result)+"%";
+            classStatistLinens +=" "+"Class " + i + ": ";
+            classStatistLinens+=Float.toString(result)+"%" + "\n";
         }
-
         return classStatistLinens;
     }
     private String embarkedStatist() {
@@ -257,14 +249,11 @@ public class BackScreen {
             all = classFilter.size();
             survived = howManySurvived(classFilter);
             result= (survived/all)*100;
-            embarkedStatistLinens +=" embarked" + embarkeds.charAt(i) + ": ";
-            embarkedStatistLinens+=Float.toString(result)+"%";
+            embarkedStatistLinens +=" "+"Embarked" + embarkeds.charAt(i) + ": ";
+            embarkedStatistLinens+=Float.toString(result)+"%" + "\n";
         }
-
         return embarkedStatistLinens;
     }
-
-
     private String genderStatistics() {
         String genderStatistLinens = "";
         float all;
@@ -276,7 +265,7 @@ public class BackScreen {
             survived = howManySurvived(genderFilter);
             result= (survived/all)*Constants.ONE_HUNDRED_PERCENT;
             genderStatistLinens +=" "+Constants.GENDERS[i]+ ": ";
-            genderStatistLinens+=Float.toString(result)+"%";
+            genderStatistLinens+=Float.toString(result)+"%" + "\n";
         }
         return genderStatistLinens;
     }
@@ -291,7 +280,7 @@ public class BackScreen {
             survived = howManySurvived(ageFilter);
             result= (survived/all)*Constants.ONE_HUNDRED_PERCENT;
             classStatistLinens +=" "+Constants.AGES[i-1]+ ": ";
-            classStatistLinens+=Float.toString(result)+"%";
+            classStatistLinens+=Float.toString(result)+"%" + "\n";
         }
 
         return classStatistLinens;
@@ -307,7 +296,7 @@ public class BackScreen {
             survived = howManySurvived(fareFilter);
             result= (survived/all)*Constants.ONE_HUNDRED_PERCENT;
             classStatistLinens +=" "+Constants.PRICES[i-1]+ ": ";
-            classStatistLinens+=Float.toString(result)+"%";
+            classStatistLinens+=Float.toString(result)+"%" + "\n";
         }
 
         return classStatistLinens;
@@ -338,13 +327,13 @@ public class BackScreen {
             all = noRelativesFilter.size();
             survived = howManySurvived(noRelativesFilter);
             result = (survived / all) * Constants.ONE_HUNDRED_PERCENT;
-            genderStatistLinens += " no relative: ";
+            genderStatistLinens += " No relative: ";
             genderStatistLinens += Float.toString(result) + "%"+"\n";
             all = relativesFilter.size();
             survived = howManySurvived(relativesFilter);
             result = (survived / all) * Constants.ONE_HUNDRED_PERCENT;
-            genderStatistLinens += " at list one relativee: ";
-            genderStatistLinens += Float.toString(result) + "%";
+            genderStatistLinens += " At list one relative: ";
+            genderStatistLinens += Float.toString(result) + "%" + "\n";
 
             return genderStatistLinens;
 
@@ -438,7 +427,7 @@ public class BackScreen {
 
 
     private  void createPassengerList() {
-        String line = "";
+        String line;
         String splitBy=",";
         try {
             BufferedReader bufferedReader = new BufferedReader(new FileReader((Constants.PATH_TO_DATA_FILE)));
@@ -454,8 +443,8 @@ public class BackScreen {
 
     private  Passenger createNewPassenger(String[] dataOfPassenger) {
         Integer id = Integer.parseInt(dataOfPassenger[0]);
-        Integer survived = Integer.parseInt(dataOfPassenger[1]); ;
-        Integer pClass = Integer.parseInt(dataOfPassenger[2]);;
+        Integer survived = Integer.parseInt(dataOfPassenger[1]);
+        Integer pClass = Integer.parseInt(dataOfPassenger[2]);
         String name = dataOfPassenger[3] + dataOfPassenger[4];
         String gender =  dataOfPassenger[5] ;
         Float age = null;
