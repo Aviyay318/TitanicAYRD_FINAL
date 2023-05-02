@@ -165,17 +165,17 @@ public class ManageScreen extends JPanel {
 
     }
     private void createJLabel(){
-        JLabel passengerNameLabel = new JLabel("Passenger Name:");
+        JLabel passengerNameLabel = new JLabel("Passenger Name");
         passengerNameLabel.setBounds(this.passengerName.getX(),this.passengerName.getY()-Constants.Y_LABEL_SPACE, this.passengerName.getWidth(),this.passengerName.getHeight());
         passengerNameLabel.setForeground(Color.blue.brighter());
         this.add(passengerNameLabel);
 
-        JLabel ticketLabel = new JLabel("Ticket Number: ");
+        JLabel ticketLabel = new JLabel("Ticket Number");
         ticketLabel.setBounds(this.ticketNumber.getX(),this.ticketNumber.getY()-Constants.Y_LABEL_SPACE,this.ticketNumber.getWidth(),this.ticketNumber.getHeight());
         ticketLabel.setForeground(Color.blue.brighter());
         this.add(ticketLabel);
 
-        JLabel cabinLabel = new JLabel("Cabin: ");
+        JLabel cabinLabel = new JLabel("Cabin");
         cabinLabel.setBounds(this.cabin.getX(),this.cabin.getY()-Constants.Y_LABEL_SPACE,this.cabin.getWidth(),this.ticketNumber.getHeight());
         cabinLabel.setForeground(Color.blue.brighter());
         this.add(cabinLabel);
@@ -203,12 +203,12 @@ public class ManageScreen extends JPanel {
         passengerNumMaxLabel.setToolTipText("Passenger Number Maximum");
 
 
-        JLabel ticketCostMinLabel= new JLabel("Ticket Cost Min:");
+        JLabel ticketCostMinLabel= new JLabel("Ticket Cost Min");
         ticketCostMinLabel.setBounds(this.ticketCostMin.getX(),this.ticketCostMin.getY()-Constants.Y_LABEL_SPACE,this.ticketCostMin.getWidth(),this.ticketCostMin.getHeight());
         ticketCostMinLabel.setForeground(Color.blue.brighter());
         this.add(ticketCostMinLabel);
 
-        JLabel ticketCostMaxLabel = new JLabel("Ticket Cost Max:");
+        JLabel ticketCostMaxLabel = new JLabel("Ticket Cost Max");
         ticketCostMaxLabel.setBounds(this.ticketCostMax.getX(), this.ticketCostMax.getY()-Constants.Y_LABEL_SPACE, this.ticketCostMax.getWidth(),this.ticketCostMax.getHeight());
         ticketCostMaxLabel.setForeground(Color.blue.brighter());
         this.add(ticketCostMaxLabel);
