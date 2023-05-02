@@ -21,7 +21,6 @@ public class ManageScreen extends JPanel {
     private JTextField ticketNumber;
     private JButton filter;
     private JButton statistics;
-    private JButton open;
     private Music music;
 
 
@@ -44,12 +43,12 @@ public class ManageScreen extends JPanel {
     }
 
     private void createTitle(){
-    JLabel heading=new JLabel("The Titanic Project");
-    heading.setBounds(245,685,Constants.WINDOW_WIDTH/2, 100);
-    heading.setFont(new Font("Calibri", 50,50));
-    heading.setForeground(Color.white);
-    this.add(heading);
-}
+        JLabel heading=new JLabel("The Titanic Project");
+        heading.setBounds(245,685,Constants.WINDOW_WIDTH/2, 100);
+        heading.setFont(new Font("Calibri", 50 ,50));
+        heading.setForeground(Color.white);
+        this.add(heading);
+    }
     private void createJBottom() {
         BackScreen backScreen = new BackScreen();
         this.filter = new JButton("Filter");
@@ -64,17 +63,8 @@ public class ManageScreen extends JPanel {
                     ,this.ticketCostMax.getText(),this.parCh.getText()));
 
 
-            this.filter.setText("Open File");
-            this.filter.addActionListener(e1 -> {
-                try {
-                    Desktop.getDesktop().open(new File("1.csv"));
-                } catch (IOException ex) {
-                    throw new RuntimeException(ex);
-                }
-            });
         });
 
-        this.open = new JButton("Open File");
         this.statistics = new JButton("Statistics");
         this.statistics.setBounds(this.parCh.getX()-50,this.parCh.getY()+Constants.SPACE*5,Constants.WIDTH_BUTTON,Constants.HEIGHT_BUTTON);
         this.add(this.statistics);
@@ -91,8 +81,6 @@ public class ManageScreen extends JPanel {
             });
         });
     }
-
-
     private void drawBackGroundImg(){
         try {
             this.backGround = ImageIO.read(new File("src/data/titanic'sCat.jpg"));
@@ -101,7 +89,6 @@ public class ManageScreen extends JPanel {
         }
 
     }
-
     private void createJComboBox(){
         JLabel classPLabel = new JLabel("Passenger Class: ");
         classPLabel.setForeground(Color.white);
@@ -130,56 +117,53 @@ public class ManageScreen extends JPanel {
         embarkedLabel.setBounds(this.getX() + Constants.MARGIN_FROM_LEFT, this.embarkedComboBox.getY(), Constants.LABEL_WIDTH+10, Constants.LABEL_HEIGHT);
         this.add(embarkedLabel);
     }
-
-
     private void createJTextField(){
         this.passengerName = new JTextField();
         this.passengerName.setBounds(Constants.X_LABEL,Constants.Y_LABEL,Constants.LABEL_WIDTH,Constants.LABEL_HEIGHT);
         this.add(this.passengerName);
-        this.passengerName.addKeyListener(new KeyInputs(this.passengerName,true));
+        this.passengerName.addKeyListener(new KeyInputs(this.passengerName,Constants.ONLY_LETTER));
 
         this.ticketNumber = new JTextField();
-        this.ticketNumber.setBounds(this.passengerName.getX()+this.passengerName.getWidth()+Constants.SPACE,this.passengerName.getY(),Constants.LABEL_WIDTH,Constants.LABEL_HEIGHT);
+        this.ticketNumber.setBounds(this.passengerName.getX()+this.passengerName.getWidth()+Constants.SPACE, this.passengerName.getY(), Constants.LABEL_WIDTH, Constants.LABEL_HEIGHT);
         this.add(this.ticketNumber);
-        this.ticketNumber.addKeyListener(new KeyInputs(this.ticketNumber,false));
+        this.ticketNumber.addKeyListener(new KeyInputs(this.ticketNumber,Constants.ONLY_DIGIT));
 
         this.cabin = new JTextField();
         this.cabin.setBounds(this.ticketNumber.getX()+this.ticketNumber.getWidth()+Constants.SPACE,this.ticketNumber.getY(),Constants.LABEL_WIDTH,Constants.LABEL_HEIGHT);
         this.add(this.cabin);
-        this.cabin.addKeyListener(new KeyInputs(this.cabin,false));
+        this.cabin.addKeyListener(new KeyInputs(this.cabin,Constants.ONLY_DIGIT));
 
         this.passengerNumMin = new JTextField();
         this.passengerNumMin.setBounds(this.passengerName.getX(),this.ticketNumber.getY()+Constants.J_TEXT_BOX_HEIGHT+Constants.SPACE,Constants.LABEL_WIDTH,Constants.LABEL_HEIGHT);
         this.add(this.passengerNumMin);
-        this.passengerNumMin.addKeyListener(new KeyInputs(this.passengerNumMin ,false));
+        this.passengerNumMin.addKeyListener(new KeyInputs(this.passengerNumMin ,Constants.DIGITS));
 
         this.passengerNumMax = new JTextField();
         this.passengerNumMax.setBounds( this.passengerNumMin.getX()+ this.passengerNumMin.getWidth()+Constants.SPACE, this.passengerNumMin.getY(),Constants.LABEL_WIDTH,Constants.LABEL_HEIGHT);
         this.add(this.passengerNumMax);
-        this.passengerNumMax.addKeyListener(new KeyInputs(this.passengerNumMax,false));
+        this.passengerNumMax.addKeyListener(new KeyInputs(this.passengerNumMax,Constants.DIGITS));
 
         this.sibSp = new JTextField();
         this.sibSp.setBounds(this.passengerNumMax.getX()+ this.passengerNumMax.getWidth()+Constants.SPACE, this.passengerNumMax.getY(),Constants.LABEL_WIDTH,Constants.LABEL_HEIGHT);
         this.add(this.sibSp);
-        this.sibSp.addKeyListener(new KeyInputs(this.sibSp,false));
+        this.sibSp.addKeyListener(new KeyInputs(this.sibSp,Constants.ONLY_DIGIT));
 
         this.ticketCostMin = new JTextField();
         this.ticketCostMin.setBounds( this.passengerName.getX(), this.passengerNumMin.getY()+Constants.J_TEXT_BOX_HEIGHT+Constants.SPACE,Constants.LABEL_WIDTH,Constants.LABEL_HEIGHT);
         this.add(this.ticketCostMin);
-        this.ticketCostMin.addKeyListener(new KeyInputs(this.ticketCostMin,false));
+        this.ticketCostMin.addKeyListener(new KeyInputs(this.ticketCostMin,Constants.DIGITS));
 
         this.ticketCostMax = new JTextField();
         this.ticketCostMax.setBounds(this.ticketCostMin.getX()+ this.ticketCostMin.getWidth()+Constants.SPACE, this.ticketCostMin.getY(),Constants.LABEL_WIDTH,Constants.LABEL_HEIGHT);
         this.add(this.ticketCostMax);
-        this.ticketCostMax.addKeyListener(new KeyInputs(this.ticketCostMax,false));
+        this.ticketCostMax.addKeyListener(new KeyInputs(this.ticketCostMax,Constants.DIGITS));
 
         this.parCh = new JTextField();
         this.parCh.setBounds(this.ticketCostMax.getX()+ this.ticketCostMax.getWidth()+Constants.SPACE, this.ticketCostMax.getY(),Constants.LABEL_WIDTH,Constants.LABEL_HEIGHT);
         this.add(this.parCh);
-        this.parCh.addKeyListener(new KeyInputs(this.parCh,false));
+        this.parCh.addKeyListener(new KeyInputs(this.parCh,Constants.ONLY_DIGIT));
 
     }
-
     private void createJLabel(){
         JLabel passengerNameLabel = new JLabel("Passenger Name:");
         passengerNameLabel.setBounds(this.passengerName.getX(),this.passengerName.getY()-Constants.Y_LABEL_SPACE, this.passengerName.getWidth(),this.passengerName.getHeight());
@@ -206,15 +190,18 @@ public class ManageScreen extends JPanel {
         parChLabel.setForeground(Color.blue.brighter());
         this.add(parChLabel);
 
-        JLabel passengerNumMinLabel = new JLabel("PassengerNumMin");
+        JLabel passengerNumMinLabel = new JLabel("PN Min");
         passengerNumMinLabel.setBounds(this.passengerNumMin.getX(),this.passengerNumMin.getY()-Constants.Y_LABEL_SPACE,this.passengerNumMin.getWidth(),this.passengerNumMin.getHeight());
         passengerNumMinLabel.setForeground(Color.blue.brighter());
         this.add(passengerNumMinLabel);
+        passengerNumMinLabel.setToolTipText("Passenger Number Minimum");
 
-        JLabel passengerNumMaxLabel= new JLabel("Passenger Number Max");
+        JLabel passengerNumMaxLabel= new JLabel("PN Max");
         passengerNumMaxLabel.setBounds(this.passengerNumMax.getX(),this.passengerNumMax.getY()-Constants.Y_LABEL_SPACE, this.passengerNumMax.getWidth(), this.passengerNumMax.getHeight());
         passengerNumMaxLabel.setForeground(Color.blue.brighter());
         this.add(passengerNumMaxLabel);
+        passengerNumMaxLabel.setToolTipText("Passenger Number Maximum");
+
 
         JLabel ticketCostMinLabel= new JLabel("Ticket Cost Min:");
         ticketCostMinLabel.setBounds(this.ticketCostMin.getX(),this.ticketCostMin.getY()-Constants.Y_LABEL_SPACE,this.ticketCostMin.getWidth(),this.ticketCostMin.getHeight());
@@ -226,8 +213,6 @@ public class ManageScreen extends JPanel {
         ticketCostMaxLabel.setForeground(Color.blue.brighter());
         this.add(ticketCostMaxLabel);
     }
-
-
     protected void paintComponent(Graphics graphics) {
         super.paintComponent(graphics);
         Graphics2D graphics2D = (Graphics2D) graphics;
