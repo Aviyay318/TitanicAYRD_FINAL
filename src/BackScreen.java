@@ -28,6 +28,19 @@ public class BackScreen {
    private void windowFilter(String pClass,String gender,String passengerName,String embarked,String ticketNumber,
                              String cabin,String passengerNumMin,String passengerNumMax,String sibSp,String ticketCostMin,
                              String ticketCostMax,String parCh){
+        if (!passengerNumMax.equals("")&&!passengerNumMin.equals("")){
+            if (Integer.parseInt(passengerNumMax)<Integer.parseInt(passengerNumMin)){
+                String temp = passengerNumMax;
+                passengerNumMax = passengerNumMin;
+                passengerNumMin = temp;
+            }
+        } if (!ticketCostMax.equals("")&&!ticketCostMin.equals("")){
+           if (Integer.parseInt(ticketCostMax)<Integer.parseInt(ticketCostMin)){
+               String temp = ticketCostMax;
+               ticketCostMax = ticketCostMin;
+               passengerNumMin = temp;
+           }
+       }
        for (Passenger passenger: this.passengers) {
            if (pClass.equals("All")||passenger.identicalPClass(returnClassNumber(pClass))){
                if (gender.equals("All")||passenger.identicalGender(gender)){
