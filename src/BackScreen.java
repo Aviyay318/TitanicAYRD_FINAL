@@ -224,7 +224,7 @@ public class BackScreen {
     private void orderByName(){
         for (int i=0;i<this.passengerFilter.size();i++) {
             for (int j=i+1;j<this.passengerFilter.size();j++)
-                if(passengers.get(i).getFormattedName().compareTo(this.passengerFilter.get(j).getFormattedName())>0){
+                if(this.passengerFilter.get(i).getFormattedName().compareTo(this.passengerFilter.get(j).getFormattedName())>0){
                     Passenger passenger = this.passengerFilter.get(i);
                     this.passengerFilter.set(i,this.passengerFilter.get(j));
                     this.passengerFilter.set(j,passenger);
