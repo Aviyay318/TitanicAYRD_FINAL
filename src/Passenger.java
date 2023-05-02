@@ -13,7 +13,8 @@ public class Passenger {
     private Character embarked;
 
 
-    public Passenger(Integer id, Integer survived, Integer pClass, String name, String gender, Float age, Integer sibSp, Integer parCh, String ticket, Double fare, String cabin, Character embarked) {
+    public Passenger(Integer id, Integer survived, Integer pClass, String name, String gender, Float age,
+                     Integer sibSp, Integer parCh, String ticket, Double fare, String cabin, Character embarked) {
 
         this.id = id;
         this.survived = survived;
@@ -62,8 +63,10 @@ public class Passenger {
     }
     public boolean isBiggerId(Integer minId) {
         boolean result = false;
-        if (this.id>=minId){
-            result=true;
+        if (this.id!=null){
+            if (this.id>=minId){
+                result=true;
+            }
         }
         return result;
     }
@@ -91,16 +94,8 @@ public class Passenger {
     }
     public boolean identicalGender (String gender) {
         boolean result =false;
-        if (this.gender.equals(gender)){
-            result = true;
-        }
-        return result;
-    }
-
-    public boolean identicalAge (Float age) {
-        boolean result =false;
-        if (this.age!=null){
-            if (this.age.equals(age)){
+        if (this.gender!=null){
+            if (this.gender.equals(gender)){
                 result = true;
             }
         }
@@ -139,25 +134,31 @@ public class Passenger {
 
     public boolean isContainedInTicket (String partOfTicket) {
         boolean result =false;
-        if (this.ticket.contains(partOfTicket)){
-            result = true;
+        if (this.ticket!=null){
+            if (this.ticket.contains(partOfTicket)){
+                result = true;
+            }
         }
         return result;
     }
     public boolean isContainedInCabin (String cabin) {
         boolean result =false;
-        if (this.cabin.contains(cabin)){
-            result = true;
+        if (this.cabin!=null){
+            if (this.cabin.contains(cabin)){
+                result = true;
+            }
         }
         return result;
     }
 
-    public int ticketPriceCheck (){  // 10 ,11-30 30+
+    public int ticketPriceCheck (){
         int ticketFare = Constants.BETWEEN_ELEVEN_THIRTY;
-        if (this.fare<=10){
-            ticketFare = Constants.SMALLER_THAN_TEN;
-        }else if(this.fare>30){
-            ticketFare = Constants.HIGHER_THAN_THIRTY;
+        if (this.fare!=null){
+            if (this.fare<=10){
+                ticketFare = Constants.SMALLER_THAN_TEN;
+            }else if(this.fare>30){
+                ticketFare = Constants.HIGHER_THAN_THIRTY;
+            }
         }
         return ticketFare;
     }
@@ -182,8 +183,10 @@ public class Passenger {
 
     public boolean identicalPClass (int pClass) {
         boolean result =false;
-        if (this.pClass==pClass){
-            result = true;
+        if (this.pClass!=null){
+            if (this.pClass==pClass){
+                result = true;
+            }
         }
         return result;
     }
