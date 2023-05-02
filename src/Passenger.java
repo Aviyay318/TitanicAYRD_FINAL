@@ -45,7 +45,7 @@ public class Passenger {
     public String getFormattedName () {
         String fullName="";
         try {
-            fullName+=this.name.substring(this.name.indexOf(".")+1,this.name.length()-1) ;
+            fullName+=this.name.substring(this.name.indexOf("."),this.name.length()-1) ;
             fullName+=this.name.substring(0, this.name.indexOf(","));
         }catch (Exception e){
             fullName+=this.name.substring(1, this.name.indexOf(" "));

@@ -13,8 +13,6 @@ public class Constants {
     public static final int COMBO_BOX_HEIGHT = 30;
     public static final int J_TEXT_BOX_WIDTH = 100;
     public static final int J_TEXT_BOX_HEIGHT = 40;
-    public static final int J_TEXT_FROM_TOP = 300;
-    public static final int J_TEXT_FROM_LEFT = 300;
     public static final String MALE = "male";
     public static final String FEMALE = "female";
     public static final int SMALLER_THAN_TEN = 1;
