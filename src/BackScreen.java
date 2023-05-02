@@ -5,11 +5,12 @@ public class BackScreen {
     private static int fileNumber;
     private List<Passenger> passengers;
     private   List <Passenger> passengerFilter;
+    private String titleCSV;
     public BackScreen() {
         this.fileNumber = 0;
         this.passengers = new ArrayList<>();
         createPassengerList();
-        System.out.println(this.passengers);
+        System.out.println(this.titleCSV);
     }
 
     public String filter(String pClass,String gender,String embarked,String passengerName,String ticketNumber,String cabin,String passengerNumMin,String passengerNumMax,String sibSp,
@@ -287,6 +288,7 @@ public class BackScreen {
         File file = new File(fileName+".csv");
         try {
             PrintWriter printWriter = new PrintWriter(file);
+            printWriter.println(this.titleCSV);
             for (Passenger passenger:this.passengerFilter) {
                 printWriter.print(passenger.toString());
             }
@@ -305,7 +307,7 @@ public class BackScreen {
         String splitBy=",";
         try {
             BufferedReader bufferedReader = new BufferedReader(new FileReader((Constants.PATH_TO_DATA_FILE)));
-            bufferedReader.readLine();
+            this.titleCSV=bufferedReader.readLine();
             while ((line = bufferedReader.readLine()) !=null){
                 String[] dataOfPassenger = line.split(splitBy);
                 this.passengers.add(createNewPassenger(dataOfPassenger));

@@ -205,9 +205,9 @@ public class Passenger {
 
     public String toString() {
         String output="";
-        output+= "Passenger ID: " + this.id +", Status: " + this.survived+ ", Class: " + this.pClass+ ", Name: " + getFormattedName();
-        output+= ", Gender: " + this.gender + ", Age: " + this.age + ", Siblings: " + this.sibSp + ", Parents: " + this.parCh + ", Ticket Number: " + this.ticket
-                + ", Fare: " + this.fare + ", Cabin: " + this.cabin + " ,Embarked at: " + this.embarked + "\n";
+        output+=  this.id +","+ this.survived+","+  this.pClass+","+ getFormattedName()+","+this.gender +","
+                +  this.age+"," +  this.sibSp +","+ this.parCh +"," + this.ticket+","
+                + this.fare +","+ this.cabin +","+ this.embarked+"\n" ;
         return output;
     }
 
