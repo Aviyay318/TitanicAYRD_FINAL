@@ -11,9 +11,10 @@ public class KeyInputs implements KeyListener {
         this.jTextField = jTextField;
         this.type = type;
         this.dialogMassage = new JLabel();
-        this.dialogMassage.setBounds(Constants.WINDOW_WIDTH/2-100,Constants.WINDOW_HEIGHT/2-100,200,200);
+        this.dialogMassage.setBounds(Constants.WINDOW_WIDTH / 2 - 100, Constants.WINDOW_HEIGHT / 2 - 100, 200, 200);
 
     }
+
     @Override
     public void keyTyped(KeyEvent e) {
 
@@ -62,7 +63,5 @@ public class KeyInputs implements KeyListener {
         this.jTextField.setText("");
         JOptionPane.showMessageDialog(this.dialogMassage,textMessage);
     }
-
-
 
 }
