@@ -34,12 +34,12 @@ public class Constants {
     public static final String FIRST_CLASS= "1st";
     public static final String SECOND_CLASS="2nd";
     public static final String THIRD_CLASS="3rd";
-    public static final String CHARBURGH_NAME= "Charburgh";
+    public static final String CHARBURGH_NAME= "charburgh";
     public static final char CHARBURGH_CHAR= 'C';
     public static final char QUEENSTOWN_CHAR= 'Q';
-    public static final String QUEENSTOWN_NAME= "Queenstown";
+    public static final String QUEENSTOWN_NAME= "queenstown";
     public static final char SOUTH_HAMPTON_CHAR= 'S';
-    public static final String SOUTH_HAMPTON_NAME= "South Hampton";
+    public static final String SOUTH_HAMPTON_NAME= "southHampton";
     public static final int BETWEEN_ZERO_TEN=1;
     public static final int BETWEEN_ELEVEN_TWENTY=2;
     public static final int BETWEEN_TWENTY_ONE_THIRTY=3;
@@ -51,11 +51,10 @@ public class Constants {
     public static final String[] GENDERS= {"male", "female"};
     public static final int NO_RELATIVES=0;
     public static final int ONE_HUNDRED_PERCENT=100;
+    public static final int ONLY_LETTER = 0;
+    public static final int ONLY_DIGIT = 1;
+    public static final int DIGITS = 2;
 
 
-//            switch (this.survivedComboBox.getItemAt(this.survivedComboBox.getSelectedIndex())){
-//                case "charburgh" -> myE = "C";
-//                case "queenstown" -> myE = "Q";
-//                case "southHampton" -> myE = "S";
-//            }
+
 }
