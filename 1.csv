@@ -1,0 +1,802 @@
+Passenger ID: 786, Status: 0, Class: 3, Name:  Abraham David LishinHarmer, Gender: male, Age: 25.0, Siblings: 0, Parents: 0, Ticket Number: 374887, Fare: 7.25, Cabin:  ,Embarked at: S
+
+Passenger ID: 81, Status: 0, Class: 3, Name:  AchilleWaelens, Gender: male, Age: 22.0, Siblings: 0, Parents: 0, Ticket Number: 345767, Fare: 9.0, Cabin:  ,Embarked at: S
+
+Passenger ID: 700, Status: 0, Class: 3, Name:  Adolf Mathias Nicolai OlsenHumblen, Gender: male, Age: 42.0, Siblings: 0, Parents: 0, Ticket Number: 348121, Fare: 7.65, Cabin: F G63 ,Embarked at: S
+
+Passenger ID: 299, Status: 1, Class: 1, Name:  AdolpheSaalfeld, Gender: male, Age: null, Siblings: 0, Parents: 0, Ticket Number: 19988, Fare: 30.5, Cabin: C106 ,Embarked at: S
+
+Passenger ID: 247, Status: 0, Class: 3, Name:  Agda Thorilda ViktoriaLindahl, Gender: female, Age: 25.0, Siblings: 0, Parents: 0, Ticket Number: 347071, Fare: 7.775, Cabin:  ,Embarked at: S
+
+Passenger ID: 211, Status: 0, Class: 3, Name:  AhmedAli, Gender: male, Age: 24.0, Siblings: 0, Parents: 0, Ticket Number: SOTON/O.Q. 3101311, Fare: 7.05, Cabin:  ,Embarked at: S
+
+Passenger ID: 324, Status: 1, Class: 2, Name:  Albert Francis Sylvia Mae HarbaughCaldwell, Gender: female, Age: 22.0, Siblings: 1, Parents: 1, Ticket Number: 248738, Fare: 29.0, Cabin:  ,Embarked at: S
+
+Passenger ID: 108, Status: 1, Class: 3, Name:  Albert JohanMoss, Gender: male, Age: null, Siblings: 0, Parents: 0, Ticket Number: 312991, Fare: 7.775, Cabin:  ,Embarked at: S
+
+Passenger ID: 133, Status: 0, Class: 3, Name:  Alexander A Grace Charity LauryRobins, Gender: female, Age: 47.0, Siblings: 1, Parents: 0, Ticket Number: A/5. 3337, Fare: 14.5, Cabin:  ,Embarked at: S
+
+Passenger ID: 414, Status: 0, Class: 2, Name:  Alfred FlemingCunningham, Gender: male, Age: null, Siblings: 0, Parents: 0, Ticket Number: 239853, Fare: 0.0, Cabin:  ,Embarked at: S
+
+Passenger ID: 575, Status: 0, Class: 3, Name:  Alfred George JohnRush, Gender: male, Age: 16.0, Siblings: 0, Parents: 0, Ticket Number: A/4. 20589, Fare: 8.05, Cabin:  ,Embarked at: S
+
+Passenger ID: 598, Status: 0, Class: 3, Name:  AlfredJohnson, Gender: male, Age: 49.0, Siblings: 0, Parents: 0, Ticket Number: LINE, Fare: 0.0, Cabin:  ,Embarked at: S
+
+Passenger ID: 631, Status: 1, Class: 1, Name:  Algernon Henry WilsonBarkworth, Gender: male, Age: 80.0, Siblings: 0, Parents: 0, Ticket Number: 27042, Fare: 30.0, Cabin: A23 ,Embarked at: S
+
+Passenger ID: 342, Status: 1, Class: 1, Name:  Alice ElizabethFortune, Gender: female, Age: 24.0, Siblings: 3, Parents: 2, Ticket Number: 19950, Fare: 263.0, Cabin: C23 C25 C27 ,Embarked at: S
+
+Passenger ID: 797, Status: 1, Class: 1, Name:  Alice FarnhamLeader, Gender: female, Age: 49.0, Siblings: 0, Parents: 0, Ticket Number: 17465, Fare: 25.9292, Cabin: D17 ,Embarked at: S
+
+Passenger ID: 236, Status: 0, Class: 3, Name:  Alice PhoebeHarknett, Gender: female, Age: null, Siblings: 0, Parents: 0, Ticket Number: W./C. 6609, Fare: 7.55, Cabin:  ,Embarked at: S
+
+Passenger ID: 474, Status: 1, Class: 2, Name:  Amin S Marie Marthe ThuillardJerwan, Gender: female, Age: 23.0, Siblings: 0, Parents: 0, Ticket Number: SC/AH Basle 541, Fare: 13.7917, Cabin: D ,Embarked at: C
+
+Passenger ID: 650, Status: 1, Class: 3, Name:  Amy Zillah ElsieStanley, Gender: female, Age: 23.0, Siblings: 0, Parents: 0, Ticket Number: CA. 2314, Fare: 7.55, Cabin:  ,Embarked at: S
+
+Passenger ID: 611, Status: 0, Class: 3, Name:  Anders Johan Alfrida Konstantia BrogrenAndersson, Gender: female, Age: 39.0, Siblings: 1, Parents: 5, Ticket Number: 347082, Fare: 31.275, Cabin:  ,Embarked at: S
+
+Passenger ID: 14, Status: 0, Class: 3, Name:  Anders JohanAndersson, Gender: male, Age: 39.0, Siblings: 1, Parents: 5, Ticket Number: 347082, Fare: 31.275, Cabin:  ,Embarked at: S
+
+Passenger ID: 105, Status: 0, Class: 3, Name:  Anders VilhelmGustafsson, Gender: male, Age: 37.0, Siblings: 2, Parents: 0, Ticket Number: 3101276, Fare: 7.925, Cabin:  ,Embarked at: S
+
+Passenger ID: 784, Status: 0, Class: 3, Name:  Andrew GJohnston, Gender: male, Age: null, Siblings: 1, Parents: 2, Ticket Number: W./C. 6607, Fare: 23.45, Cabin:  ,Embarked at: S
+
+Passenger ID: 178, Status: 0, Class: 1, Name:  Ann ElizabethIsham, Gender: female, Age: 50.0, Siblings: 0, Parents: 0, Ticket Number: PC 17595, Fare: 28.7125, Cabin: C49 ,Embarked at: C
+
+Passenger ID: 301, Status: 1, Class: 3, Name:  Anna Katherine Annie KateKelly, Gender: female, Age: null, Siblings: 0, Parents: 0, Ticket Number: 9234, Fare: 7.75, Cabin:  ,Embarked at: Q
+
+Passenger ID: 482, Status: 0, Class: 2, Name:  Anthony Wood ArchieFrost, Gender: male, Age: null, Siblings: 0, Parents: 0, Ticket Number: 239854, Fare: 0.0, Cabin:  ,Embarked at: S
+
+Passenger ID: 846, Status: 0, Class: 3, Name:  AnthonyAbbing, Gender: male, Age: 42.0, Siblings: 0, Parents: 0, Ticket Number: C.A. 5547, Fare: 7.55, Cabin:  ,Embarked at: S
+
+Passenger ID: 174, Status: 0, Class: 3, Name:  Antti WilhelmSivola, Gender: male, Age: 21.0, Siblings: 0, Parents: 0, Ticket Number: STON/O 2. 3101280, Fare: 7.925, Cabin:  ,Embarked at: S
+
+Passenger ID: 74, Status: 0, Class: 3, Name:  ApostolosChronopoulos, Gender: male, Age: 26.0, Siblings: 1, Parents: 0, Ticket Number: 2680, Fare: 14.4542, Cabin:  ,Embarked at: C
+
+Passenger ID: 537, Status: 0, Class: 1, Name:  Archibald WillinghamButt, Gender: male, Age: 45.0, Siblings: 0, Parents: 0, Ticket Number: 113050, Fare: 26.55, Cabin: B38 ,Embarked at: S
+
+Passenger ID: 229, Status: 0, Class: 2, Name:  Arne JonasFahlstrom, Gender: male, Age: 18.0, Siblings: 0, Parents: 0, Ticket Number: 236171, Fare: 13.0, Cabin:  ,Embarked at: S
+
+Passenger ID: 546, Status: 0, Class: 1, Name:  Arthur ErnestNicholson, Gender: male, Age: 64.0, Siblings: 0, Parents: 0, Ticket Number: 693, Fare: 26.0, Cabin:  ,Embarked at: S
+
+Passenger ID: 450, Status: 1, Class: 1, Name:  Arthur GodfreyPeuchen, Gender: male, Age: 52.0, Siblings: 0, Parents: 0, Ticket Number: 113786, Fare: 30.5, Cabin: C104 ,Embarked at: S
+
+Passenger ID: 463, Status: 0, Class: 1, Name:  Arthur HGee, Gender: male, Age: 47.0, Siblings: 0, Parents: 0, Ticket Number: 111320, Fare: 38.5, Cabin: E63 ,Embarked at: S
+
+Passenger ID: 767, Status: 0, Class: 1, Name:  Arthur JacksonBrewe, Gender: male, Age: null, Siblings: 0, Parents: 0, Ticket Number: 112379, Fare: 39.6, Cabin:  ,Embarked at: C
+
+Passenger ID: 660, Status: 0, Class: 1, Name:  Arthur WebsterNewell, Gender: male, Age: 58.0, Siblings: 0, Parents: 2, Ticket Number: 35273, Fare: 113.275, Cabin: D48 ,Embarked at: C
+
+Passenger ID: 471, Status: 0, Class: 3, Name:  ArthurKeefe, Gender: male, Age: null, Siblings: 0, Parents: 0, Ticket Number: 323592, Fare: 7.25, Cabin:  ,Embarked at: S
+
+Passenger ID: 172, Status: 0, Class: 3, Name:  ArthurRice, Gender: male, Age: 4.0, Siblings: 4, Parents: 1, Ticket Number: 382652, Fare: 29.125, Cabin:  ,Embarked at: Q
+
+Passenger ID: 804, Status: 1, Class: 3, Name:  Assad AlexanderThomas, Gender: male, Age: 0.42, Siblings: 0, Parents: 1, Ticket Number: 2625, Fare: 8.5167, Cabin:  ,Embarked at: C
+
+Passenger ID: 277, Status: 0, Class: 3, Name:  Augusta CharlottaLindblom, Gender: female, Age: 45.0, Siblings: 0, Parents: 0, Ticket Number: 347073, Fare: 7.75, Cabin:  ,Embarked at: S
+
+Passenger ID: 441, Status: 1, Class: 2, Name:  Benjamin Esther Ada BloomfieldHart, Gender: female, Age: 45.0, Siblings: 1, Parents: 1, Ticket Number: F.C.C. 13529, Fare: 26.25, Cabin:  ,Embarked at: S
+
+Passenger ID: 790, Status: 0, Class: 1, Name:  BenjaminGuggenheim, Gender: male, Age: 46.0, Siblings: 0, Parents: 0, Ticket Number: PC 17593, Fare: 79.2, Cabin: B82 B84 ,Embarked at: C
+
+Passenger ID: 445, Status: 1, Class: 3, Name:  BerntJohannesenBratthammer, Gender: male, Age: null, Siblings: 0, Parents: 0, Ticket Number: 65306, Fare: 8.1125, Cabin:  ,Embarked at: S
+
+Passenger ID: 85, Status: 1, Class: 2, Name:  BerthaIlett, Gender: female, Age: 17.0, Siblings: 0, Parents: 0, Ticket Number: SO/C 14885, Fare: 10.5, Cabin:  ,Embarked at: S
+
+Passenger ID: 538, Status: 1, Class: 1, Name:  BerthaLeRoy, Gender: female, Age: 30.0, Siblings: 0, Parents: 0, Ticket Number: PC 17761, Fare: 106.425, Cabin:  ,Embarked at: C
+
+Passenger ID: 390, Status: 1, Class: 2, Name:  BerthaLehmann, Gender: female, Age: 17.0, Siblings: 0, Parents: 0, Ticket Number: SC 1748, Fare: 12.0, Cabin:  ,Embarked at: C
+
+Passenger ID: 110, Status: 1, Class: 3, Name:  BerthaMoran, Gender: female, Age: null, Siblings: 1, Parents: 0, Ticket Number: 371110, Fare: 24.15, Cabin:  ,Embarked at: Q
+
+Passenger ID: 711, Status: 1, Class: 1, Name:  Berthe Antonine Mrs de VilliersMayne, Gender: female, Age: 24.0, Siblings: 0, Parents: 0, Ticket Number: PC 17482, Fare: 49.5042, Cabin: C90 ,Embarked at: C
+
+Passenger ID: 26, Status: 1, Class: 3, Name:  Carl Oscar Selma Augusta Emilia JohanssonAsplund, Gender: female, Age: 38.0, Siblings: 1, Parents: 5, Ticket Number: 347077, Fare: 31.3875, Cabin:  ,Embarked at: S
+
+Passenger ID: 407, Status: 0, Class: 3, Name:  CarlCharles PeterWidegren, Gender: male, Age: 51.0, Siblings: 0, Parents: 0, Ticket Number: 347064, Fare: 7.75, Cabin:  ,Embarked at: S
+
+Passenger ID: 193, Status: 1, Class: 3, Name:  Carla Christine NielsineAndersenJensen, Gender: female, Age: 19.0, Siblings: 1, Parents: 0, Ticket Number: 350046, Fare: 7.8542, Cabin:  ,Embarked at: S
+
+Passenger ID: 420, Status: 0, Class: 3, Name:  CatharinaVan, Gender: female, Age: 10.0, Siblings: 0, Parents: 2, Ticket Number: 345773, Fare: 24.15, Cabin:  ,Embarked at: S
+
+Passenger ID: 534, Status: 1, Class: 3, Name:  Catherine Catherine RizkPeter, Gender: female, Age: null, Siblings: 0, Parents: 2, Ticket Number: 2668, Fare: 22.3583, Cabin:  ,Embarked at: C
+
+Passenger ID: 363, Status: 0, Class: 3, Name:  Catherine DavidBarbara, Gender: female, Age: 45.0, Siblings: 0, Parents: 1, Ticket Number: 2691, Fare: 14.4542, Cabin:  ,Embarked at: C
+
+Passenger ID: 889, Status: 0, Class: 3, Name:  Catherine Helen CarrieJohnston, Gender: female, Age: null, Siblings: 1, Parents: 2, Ticket Number: W./C. 6607, Fare: 23.45, Cabin:  ,Embarked at: S
+
+Passenger ID: 839, Status: 1, Class: 3, Name:  ChangChip, Gender: male, Age: 32.0, Siblings: 0, Parents: 0, Ticket Number: 1601, Fare: 56.4958, Cabin:  ,Embarked at: S
+
+Passenger ID: 433, Status: 1, Class: 2, Name:  Charles Alexander Alice Adelaide SlowLouch, Gender: female, Age: 42.0, Siblings: 1, Parents: 0, Ticket Number: SC/AH 3085, Fare: 26.0, Cabin:  ,Embarked at: S
+
+Passenger ID: 28, Status: 0, Class: 1, Name:  Charles AlexanderFortune, Gender: male, Age: 19.0, Siblings: 3, Parents: 2, Ticket Number: 19950, Fare: 263.0, Cabin: C23 C25 C27 ,Embarked at: S
+
+Passenger ID: 156, Status: 0, Class: 1, Name:  Charles DuaneWilliams, Gender: male, Age: 51.0, Siblings: 0, Parents: 1, Ticket Number: PC 17597, Fare: 61.3792, Cabin:  ,Embarked at: C
+
+Passenger ID: 684, Status: 0, Class: 3, Name:  Charles EdwardGoodwin, Gender: male, Age: 14.0, Siblings: 5, Parents: 2, Ticket Number: CA 2144, Fare: 46.9, Cabin:  ,Embarked at: S
+
+Passenger ID: 18, Status: 1, Class: 2, Name:  Charles EugeneWilliams, Gender: male, Age: null, Siblings: 0, Parents: 0, Ticket Number: 244373, Fare: 13.0, Cabin:  ,Embarked at: S
+
+Passenger ID: 344, Status: 0, Class: 2, Name:  Charles Frederick WaddingtonSedgwick, Gender: male, Age: 25.0, Siblings: 0, Parents: 0, Ticket Number: 244361, Fare: 13.0, Cabin:  ,Embarked at: S
+
+Passenger ID: 603, Status: 0, Class: 1, Name:  Charles HHarrington, Gender: male, Age: null, Siblings: 0, Parents: 0, Ticket Number: 113796, Fare: 42.4, Cabin:  ,Embarked at: S
+
+Passenger ID: 274, Status: 0, Class: 1, Name:  Charles HNatsch, Gender: male, Age: 37.0, Siblings: 0, Parents: 1, Ticket Number: PC 17596, Fare: 29.7, Cabin: C118 ,Embarked at: C
+
+Passenger ID: 188, Status: 1, Class: 1, Name:  Charles Hallace Mr C RolmaneRomaine, Gender: male, Age: 45.0, Siblings: 0, Parents: 0, Ticket Number: 111428, Fare: 26.55, Cabin:  ,Embarked at: S
+
+Passenger ID: 696, Status: 0, Class: 2, Name:  Charles HenryChapman, Gender: male, Age: 52.0, Siblings: 0, Parents: 0, Ticket Number: 248731, Fare: 13.5, Cabin:  ,Embarked at: S
+
+Passenger ID: 386, Status: 0, Class: 2, Name:  Charles HenryDavies, Gender: male, Age: 18.0, Siblings: 0, Parents: 0, Ticket Number: S.O.C. 14879, Fare: 73.5, Cabin:  ,Embarked at: S
+
+Passenger ID: 96, Status: 0, Class: 3, Name:  Charles JosephShorney, Gender: male, Age: null, Siblings: 0, Parents: 0, Ticket Number: 374910, Fare: 8.05, Cabin:  ,Embarked at: S
+
+Passenger ID: 627, Status: 0, Class: 2, Name:  Charles LeonardKirkland, Gender: male, Age: 57.0, Siblings: 0, Parents: 0, Ticket Number: 219533, Fare: 12.35, Cabin:  ,Embarked at: Q
+
+Passenger ID: 821, Status: 1, Class: 1, Name:  Charles Melville Clara Jennings GreggHays, Gender: female, Age: 52.0, Siblings: 1, Parents: 1, Ticket Number: 12749, Fare: 93.5, Cabin: B69 ,Embarked at: S
+
+Passenger ID: 427, Status: 1, Class: 2, Name:  Charles V Ada Maria WinfieldClarke, Gender: female, Age: 28.0, Siblings: 1, Parents: 0, Ticket Number: 2003, Fare: 26.0, Cabin:  ,Embarked at: S
+
+Passenger ID: 674, Status: 1, Class: 2, Name:  CharlesWilhelms, Gender: male, Age: 31.0, Siblings: 0, Parents: 0, Ticket Number: 244270, Fare: 13.0, Cabin:  ,Embarked at: S
+
+Passenger ID: 644, Status: 1, Class: 3, Name:  ChoongFoo, Gender: male, Age: null, Siblings: 0, Parents: 0, Ticket Number: 1601, Fare: 56.4958, Cabin:  ,Embarked at: S
+
+Passenger ID: 224, Status: 0, Class: 3, Name:  ChristoNenkoff, Gender: male, Age: null, Siblings: 0, Parents: 0, Ticket Number: 349234, Fare: 7.8958, Cabin:  ,Embarked at: S
+
+Passenger ID: 413, Status: 1, Class: 1, Name:  Daisy EMinahan, Gender: female, Age: 33.0, Siblings: 1, Parents: 0, Ticket Number: 19928, Fare: 90.0, Cabin: C78 ,Embarked at: Q
+
+Passenger ID: 625, Status: 0, Class: 3, Name:  David John DaiBowen, Gender: male, Age: 21.0, Siblings: 0, Parents: 0, Ticket Number: 54636, Fare: 16.1, Cabin:  ,Embarked at: S
+
+Passenger ID: 113, Status: 0, Class: 3, Name:  David JohnBarton, Gender: male, Age: 22.0, Siblings: 0, Parents: 0, Ticket Number: 324669, Fare: 8.05, Cabin:  ,Embarked at: S
+
+Passenger ID: 422, Status: 0, Class: 3, Name:  DavidCharters, Gender: male, Age: 21.0, Siblings: 0, Parents: 0, Ticket Number: A/5. 13032, Fare: 7.7333, Cabin:  ,Embarked at: Q
+
+Passenger ID: 292, Status: 1, Class: 1, Name:  Dickinson H Helen WaltonBishop, Gender: female, Age: 19.0, Siblings: 1, Parents: 0, Ticket Number: 11967, Fare: 91.0792, Cabin: B49 ,Embarked at: C
+
+Passenger ID: 485, Status: 1, Class: 1, Name:  Dickinson HBishop, Gender: male, Age: 25.0, Siblings: 1, Parents: 0, Ticket Number: 11967, Fare: 91.0792, Cabin: B49 ,Embarked at: C
+
+Passenger ID: 132, Status: 0, Class: 3, Name:  Domingos FernandeoCoelho, Gender: male, Age: 20.0, Siblings: 0, Parents: 0, Ticket Number: SOTON/O.Q. 3101307, Fare: 7.05, Cabin:  ,Embarked at: S
+
+Passenger ID: 864, Status: 0, Class: 3, Name:  Dorothy Edith DollySage, Gender: female, Age: null, Siblings: 8, Parents: 2, Ticket Number: CA. 2343, Fare: 69.55, Cabin:  ,Embarked at: S
+
+Passenger ID: 689, Status: 0, Class: 3, Name:  Eberhard ThelanderFischer, Gender: male, Age: 18.0, Siblings: 0, Parents: 0, Ticket Number: 350036, Fare: 7.7958, Cabin:  ,Embarked at: S
+
+Passenger ID: 376, Status: 1, Class: 1, Name:  Edgar Joseph Leila SaksMeyer, Gender: female, Age: null, Siblings: 1, Parents: 0, Ticket Number: PC 17604, Fare: 82.1708, Cabin:  ,Embarked at: C
+
+Passenger ID: 35, Status: 0, Class: 1, Name:  Edgar JosephMeyer, Gender: male, Age: 28.0, Siblings: 1, Parents: 0, Ticket Number: PC 17604, Fare: 82.1708, Cabin:  ,Embarked at: C
+
+Passenger ID: 167, Status: 1, Class: 1, Name:  Edith Martha BowermanChibnall, Gender: female, Age: null, Siblings: 0, Parents: 1, Ticket Number: 113505, Fare: 55.0, Cabin: E33 ,Embarked at: S
+
+Passenger ID: 284, Status: 1, Class: 3, Name:  Edward ArthurDorking, Gender: male, Age: 19.0, Siblings: 0, Parents: 0, Ticket Number: A/5. 10482, Fare: 8.05, Cabin:  ,Embarked at: S
+
+Passenger ID: 572, Status: 1, Class: 1, Name:  Edward Dale Charlotte LamsonAppleton, Gender: female, Age: 53.0, Siblings: 2, Parents: 0, Ticket Number: 11769, Fare: 51.4792, Cabin: C101 ,Embarked at: S
+
+Passenger ID: 547, Status: 1, Class: 2, Name:  Edward Ethel ClarkeBeane, Gender: female, Age: 19.0, Siblings: 1, Parents: 0, Ticket Number: 2908, Fare: 26.0, Cabin:  ,Embarked at: S
+
+Passenger ID: 34, Status: 0, Class: 2, Name:  Edward HWheadon, Gender: male, Age: 66.0, Siblings: 0, Parents: 0, Ticket Number: C.A. 24579, Fare: 10.5, Cabin:  ,Embarked at: S
+
+Passenger ID: 708, Status: 1, Class: 1, Name:  Edward PenningtonCalderhead, Gender: male, Age: 42.0, Siblings: 0, Parents: 0, Ticket Number: PC 17476, Fare: 26.2875, Cabin: E24 ,Embarked at: S
+
+Passenger ID: 780, Status: 1, Class: 1, Name:  Edward Scott Elisabeth Walton McMillanRobert, Gender: female, Age: 43.0, Siblings: 0, Parents: 1, Ticket Number: 24160, Fare: 211.3375, Cabin: B3 ,Embarked at: S
+
+Passenger ID: 473, Status: 1, Class: 2, Name:  Edwy Arthur Ada Mary WorthWest, Gender: female, Age: 33.0, Siblings: 1, Parents: 2, Ticket Number: C.A. 34651, Fare: 27.75, Cabin:  ,Embarked at: S
+
+Passenger ID: 451, Status: 0, Class: 2, Name:  Edwy ArthurWest, Gender: male, Age: 36.0, Siblings: 1, Parents: 2, Ticket Number: C.A. 34651, Fare: 27.75, Cabin:  ,Embarked at: S
+
+Passenger ID: 173, Status: 1, Class: 3, Name:  Eleanor IleenJohnson, Gender: female, Age: 1.0, Siblings: 1, Parents: 1, Ticket Number: 347742, Fare: 11.1333, Cabin:  ,Embarked at: S
+
+Passenger ID: 731, Status: 1, Class: 1, Name:  Elisabeth WaltonAllen, Gender: female, Age: 29.0, Siblings: 0, Parents: 0, Ticket Number: 24160, Fare: 211.3375, Cabin: B5 ,Embarked at: S
+
+Passenger ID: 273, Status: 1, Class: 2, Name:  Elizabeth Anne MaidmentMellinger, Gender: female, Age: 41.0, Siblings: 0, Parents: 1, Ticket Number: 250644, Fare: 19.5, Cabin:  ,Embarked at: S
+
+Passenger ID: 775, Status: 1, Class: 2, Name:  Elizabeth Eliza NeedsHocking, Gender: female, Age: 54.0, Siblings: 1, Parents: 3, Ticket Number: 29105, Fare: 23.0, Cabin:  ,Embarked at: S
+
+Passenger ID: 338, Status: 1, Class: 1, Name:  Elizabeth MargaretBurns, Gender: female, Age: 41.0, Siblings: 0, Parents: 0, Ticket Number: 16966, Fare: 134.5, Cabin: E40 ,Embarked at: C
+
+Passenger ID: 497, Status: 1, Class: 1, Name:  Elizabeth MusseyEustis, Gender: female, Age: 54.0, Siblings: 1, Parents: 0, Ticket Number: 36947, Fare: 78.2667, Cabin: D20 ,Embarked at: C
+
+Passenger ID: 67, Status: 1, Class: 2, Name:  Elizabeth RamellNye, Gender: female, Age: 29.0, Siblings: 0, Parents: 0, Ticket Number: C.A. 29395, Fare: 10.5, Cabin: F33 ,Embarked at: S
+
+Passenger ID: 610, Status: 1, Class: 1, Name:  Elizabeth WShutes, Gender: female, Age: 40.0, Siblings: 0, Parents: 0, Ticket Number: PC 17582, Fare: 153.4625, Cabin: C125 ,Embarked at: S
+
+Passenger ID: 12, Status: 1, Class: 1, Name:  ElizabethBonnell, Gender: female, Age: 58.0, Siblings: 0, Parents: 0, Ticket Number: 113783, Fare: 26.55, Cabin: C103 ,Embarked at: S
+
+Passenger ID: 80, Status: 1, Class: 3, Name:  ElizabethDowdell, Gender: female, Age: 30.0, Siblings: 0, Parents: 0, Ticket Number: 364516, Fare: 12.475, Cabin:  ,Embarked at: S
+
+Passenger ID: 670, Status: 1, Class: 1, Name:  Elmer Zebley Juliet Cummins WrightTaylor, Gender: female, Age: null, Siblings: 1, Parents: 0, Ticket Number: 19996, Fare: 52.0, Cabin: C126 ,Embarked at: S
+
+Passenger ID: 357, Status: 1, Class: 1, Name:  Elsie EdithBowerman, Gender: female, Age: 22.0, Siblings: 0, Parents: 1, Ticket Number: 113505, Fare: 55.0, Cabin: E33 ,Embarked at: S
+
+Passenger ID: 91, Status: 0, Class: 3, Name:  EmilChristmann, Gender: male, Age: 29.0, Siblings: 0, Parents: 0, Ticket Number: 343276, Fare: 8.05, Cabin:  ,Embarked at: S
+
+Passenger ID: 136, Status: 0, Class: 2, Name:  EmileRichard, Gender: male, Age: 23.0, Siblings: 0, Parents: 0, Ticket Number: SC/PARIS 2133, Fare: 15.0458, Cabin:  ,Embarked at: C
+
+Passenger ID: 55, Status: 0, Class: 1, Name:  Engelhart CorneliusOstby, Gender: male, Age: 65.0, Siblings: 0, Parents: 1, Ticket Number: 113509, Fare: 61.9792, Cabin: B30 ,Embarked at: C
+
+Passenger ID: 396, Status: 0, Class: 3, Name:  ErikJohansson, Gender: male, Age: 22.0, Siblings: 0, Parents: 0, Ticket Number: 350052, Fare: 7.7958, Cabin:  ,Embarked at: S
+
+Passenger ID: 38, Status: 0, Class: 3, Name:  Ernest CharlesCann, Gender: male, Age: 21.0, Siblings: 0, Parents: 0, Ticket Number: A./5. 2152, Fare: 8.05, Cabin:  ,Embarked at: S
+
+Passenger ID: 855, Status: 0, Class: 2, Name:  Ernest Courtenay Lilian HughesCarter, Gender: female, Age: 44.0, Siblings: 1, Parents: 0, Ticket Number: 244252, Fare: 26.0, Cabin:  ,Embarked at: S
+
+Passenger ID: 577, Status: 1, Class: 2, Name:  EthelGarside, Gender: female, Age: 34.0, Siblings: 0, Parents: 0, Ticket Number: 243880, Fare: 13.0, Cabin:  ,Embarked at: S
+
+Passenger ID: 554, Status: 1, Class: 3, Name:  Fahim Philip ZenniLeeni, Gender: male, Age: 22.0, Siblings: 0, Parents: 0, Ticket Number: 2620, Fare: 7.225, Cabin:  ,Embarked at: C
+
+Passenger ID: 27, Status: 0, Class: 3, Name:  Farred ChehabEmir, Gender: male, Age: null, Siblings: 0, Parents: 0, Ticket Number: 2631, Fare: 7.225, Cabin:  ,Embarked at: C
+
+Passenger ID: 352, Status: 0, Class: 1, Name:  Fletcher FellowsWilliamsLambert, Gender: male, Age: null, Siblings: 0, Parents: 0, Ticket Number: 113510, Fare: 35.0, Cabin: C128 ,Embarked at: S
+
+Passenger ID: 329, Status: 1, Class: 3, Name:  Frank John Emily Alice BrownGoldsmith, Gender: female, Age: 31.0, Siblings: 1, Parents: 1, Ticket Number: 363291, Fare: 20.525, Cabin:  ,Embarked at: S
+
+Passenger ID: 166, Status: 1, Class: 3, Name:  Frank John William FrankieGoldsmith, Gender: male, Age: 9.0, Siblings: 0, Parents: 2, Ticket Number: 363291, Fare: 20.525, Cabin:  ,Embarked at: S
+
+Passenger ID: 549, Status: 0, Class: 3, Name:  Frank JohnGoldsmith, Gender: male, Age: 33.0, Siblings: 1, Parents: 1, Ticket Number: 363291, Fare: 20.525, Cabin:  ,Embarked at: S
+
+Passenger ID: 367, Status: 1, Class: 1, Name:  Frank Manley Anna Sophia AtkinsonWarren, Gender: female, Age: 60.0, Siblings: 1, Parents: 0, Ticket Number: 110813, Fare: 75.25, Cabin: D37 ,Embarked at: C
+
+Passenger ID: 507, Status: 1, Class: 2, Name:  Frederick Charles Jane RichardsQuick, Gender: female, Age: 33.0, Siblings: 0, Parents: 2, Ticket Number: 26360, Fare: 26.0, Cabin:  ,Embarked at: S
+
+Passenger ID: 677, Status: 0, Class: 3, Name:  Frederick CharlesSawyer, Gender: male, Age: 24.5, Siblings: 0, Parents: 0, Ticket Number: 342826, Fare: 8.05, Cabin:  ,Embarked at: S
+
+Passenger ID: 498, Status: 0, Class: 3, Name:  Frederick WilliamShellard, Gender: male, Age: null, Siblings: 0, Parents: 0, Ticket Number: C.A. 6212, Fare: 15.1, Cabin:  ,Embarked at: S
+
+Passenger ID: 371, Status: 1, Class: 1, Name:  George AchillesHarder, Gender: male, Age: 25.0, Siblings: 1, Parents: 0, Ticket Number: 11765, Fare: 55.4417, Cabin: E50 ,Embarked at: C
+
+Passenger ID: 97, Status: 0, Class: 1, Name:  George BGoldschmidt, Gender: male, Age: 71.0, Siblings: 0, Parents: 0, Ticket Number: PC 17754, Fare: 34.6542, Cabin: A5 ,Embarked at: C
+
+Passenger ID: 857, Status: 1, Class: 1, Name:  George Dennick Mary HitchcockWick, Gender: female, Age: 45.0, Siblings: 1, Parents: 1, Ticket Number: 36928, Fare: 164.8667, Cabin:  ,Embarked at: S
+
+Passenger ID: 333, Status: 0, Class: 1, Name:  George EdwardGraham, Gender: male, Age: 38.0, Siblings: 0, Parents: 1, Ticket Number: PC 17582, Fare: 153.4625, Cabin: C91 ,Embarked at: S
+
+Passenger ID: 508, Status: 1, Class: 1, Name:  George George Arthur BraytonBradley, Gender: male, Age: null, Siblings: 0, Parents: 0, Ticket Number: 111427, Fare: 26.55, Cabin:  ,Embarked at: S
+
+Passenger ID: 788, Status: 0, Class: 3, Name:  George HughRice, Gender: male, Age: 8.0, Siblings: 4, Parents: 1, Ticket Number: 382652, Fare: 29.125, Cabin:  ,Embarked at: Q
+
+Passenger ID: 325, Status: 0, Class: 3, Name:  George John JrSage, Gender: male, Age: null, Siblings: 8, Parents: 2, Ticket Number: CA. 2343, Fare: 69.55, Cabin:  ,Embarked at: S
+
+Passenger ID: 830, Status: 1, Class: 1, Name:  George Nelson Martha EvelynStone, Gender: female, Age: 62.0, Siblings: 0, Parents: 0, Ticket Number: 113572, Fare: 80.0, Cabin: B28 ,Embarked at: null
+
+Passenger ID: 832, Status: 1, Class: 2, Name:  George SibleyRichards, Gender: male, Age: 0.83, Siblings: 1, Parents: 1, Ticket Number: 29106, Fare: 18.75, Cabin:  ,Embarked at: S
+
+Passenger ID: 576, Status: 0, Class: 3, Name:  GeorgePatchett, Gender: male, Age: 19.0, Siblings: 0, Parents: 0, Ticket Number: 358585, Fare: 14.5, Cabin:  ,Embarked at: S
+
+Passenger ID: 556, Status: 0, Class: 1, Name:  GeorgeWright, Gender: male, Age: 62.0, Siblings: 0, Parents: 0, Ticket Number: 113807, Fare: 26.55, Cabin:  ,Embarked at: S
+
+Passenger ID: 883, Status: 0, Class: 3, Name:  Gerda UlrikaDahlberg, Gender: female, Age: 22.0, Siblings: 0, Parents: 0, Ticket Number: 7552, Fare: 10.5167, Cabin:  ,Embarked at: S
+
+Passenger ID: 257, Status: 1, Class: 1, Name:  Gertrude MaybelleThorne, Gender: female, Age: null, Siblings: 0, Parents: 0, Ticket Number: PC 17585, Fare: 79.2, Cabin:  ,Embarked at: C
+
+Passenger ID: 258, Status: 1, Class: 1, Name:  GladysCherry, Gender: female, Age: 30.0, Siblings: 0, Parents: 0, Ticket Number: 110152, Fare: 86.5, Cabin: B77 ,Embarked at: S
+
+Passenger ID: 628, Status: 1, Class: 1, Name:  Gretchen FiskeLongley, Gender: female, Age: 21.0, Siblings: 0, Parents: 0, Ticket Number: 13502, Fare: 77.9583, Cabin: D9 ,Embarked at: S
+
+Passenger ID: 629, Status: 0, Class: 3, Name:  GuentchoBostandyeff, Gender: male, Age: 26.0, Siblings: 0, Parents: 0, Ticket Number: 349224, Fare: 7.8958, Cabin:  ,Embarked at: S
+
+Passenger ID: 560, Status: 1, Class: 3, Name:  Guillaume Joseph Emmade, Gender: female, Age: 36.0, Siblings: 1, Parents: 0, Ticket Number: 345572, Fare: 17.4, Cabin:  ,Embarked at: S
+
+Passenger ID: 205, Status: 1, Class: 3, Name:  Gurshon GusCohen, Gender: male, Age: 18.0, Siblings: 0, Parents: 0, Ticket Number: A/5 3540, Fare: 8.05, Cabin:  ,Embarked at: S
+
+Passenger ID: 104, Status: 0, Class: 3, Name:  Gustaf JoelJohansson, Gender: male, Age: 33.0, Siblings: 0, Parents: 0, Ticket Number: 7540, Fare: 8.6542, Cabin:  ,Embarked at: S
+
+Passenger ID: 763, Status: 1, Class: 3, Name:  Hanna AssiBarah, Gender: male, Age: 20.0, Siblings: 0, Parents: 0, Ticket Number: 2663, Fare: 7.2292, Cabin:  ,Embarked at: C
+
+Passenger ID: 654, Status: 1, Class: 3, Name:  Hanora NorahOLeary, Gender: female, Age: null, Siblings: 0, Parents: 0, Ticket Number: 330919, Fare: 7.8292, Cabin:  ,Embarked at: Q
+
+Passenger ID: 870, Status: 1, Class: 3, Name:  Harold TheodorJohnson, Gender: male, Age: 4.0, Siblings: 1, Parents: 1, Ticket Number: 347742, Fare: 11.1333, Cabin:  ,Embarked at: S
+
+Passenger ID: 802, Status: 1, Class: 2, Name:  Harvey Charlotte Annie TateCollyer, Gender: female, Age: 31.0, Siblings: 1, Parents: 1, Ticket Number: C.A. 31921, Fare: 26.25, Cabin:  ,Embarked at: S
+
+Passenger ID: 540, Status: 1, Class: 1, Name:  Hedwig MargarithaFrolicher, Gender: female, Age: 22.0, Siblings: 0, Parents: 2, Ticket Number: 13568, Fare: 49.5, Cabin: B39 ,Embarked at: C
+
+Passenger ID: 231, Status: 1, Class: 1, Name:  Henry Birkhardt Irene WallachHarris, Gender: female, Age: 35.0, Siblings: 1, Parents: 0, Ticket Number: 36973, Fare: 83.475, Cabin: C83 ,Embarked at: S
+
+Passenger ID: 63, Status: 0, Class: 1, Name:  Henry BirkhardtHarris, Gender: male, Age: 45.0, Siblings: 1, Parents: 0, Ticket Number: 36973, Fare: 83.475, Cabin: C83 ,Embarked at: S
+
+Passenger ID: 885, Status: 0, Class: 3, Name:  Henry JrSutehall, Gender: male, Age: 25.0, Siblings: 0, Parents: 0, Ticket Number: SOTON/OQ 392076, Fare: 7.05, Cabin:  ,Embarked at: S
+
+Passenger ID: 673, Status: 0, Class: 2, Name:  Henry MichaelMitchell, Gender: male, Age: 70.0, Siblings: 0, Parents: 0, Ticket Number: C.A. 24580, Fare: 10.5, Cabin:  ,Embarked at: S
+
+Passenger ID: 706, Status: 0, Class: 2, Name:  Henry Samuel Mr Henry MarshallMorley, Gender: male, Age: 39.0, Siblings: 0, Parents: 0, Ticket Number: 250655, Fare: 26.0, Cabin:  ,Embarked at: S
+
+Passenger ID: 335, Status: 1, Class: 1, Name:  Henry William Clara HeinsheimerFrauenthal, Gender: female, Age: null, Siblings: 1, Parents: 0, Ticket Number: PC 17611, Fare: 133.65, Cabin:  ,Embarked at: S
+
+Passenger ID: 661, Status: 1, Class: 1, Name:  Henry WilliamFrauenthal, Gender: male, Age: 50.0, Siblings: 2, Parents: 0, Ticket Number: PC 17611, Fare: 133.65, Cabin:  ,Embarked at: S
+
+Passenger ID: 93, Status: 0, Class: 1, Name:  Herbert FullerChaffee, Gender: male, Age: 46.0, Siblings: 1, Parents: 0, Ticket Number: W.E.P. 5734, Fare: 61.175, Cabin: E31 ,Embarked at: S
+
+Passenger ID: 395, Status: 1, Class: 3, Name:  Hjalmar Agnes Charlotta BengtssonSandstrom, Gender: female, Age: 24.0, Siblings: 0, Parents: 2, Ticket Number: PP 9549, Fare: 16.7, Cabin: G6 ,Embarked at: S
+
+Passenger ID: 305, Status: 0, Class: 3, Name:  Howard Hugh HarryWilliams, Gender: male, Age: null, Siblings: 0, Parents: 0, Ticket Number: A/5 2466, Fare: 8.05, Cabin:  ,Embarked at: S
+
+Passenger ID: 186, Status: 0, Class: 1, Name:  Hugh RoscoeRood, Gender: male, Age: null, Siblings: 0, Parents: 0, Ticket Number: 113767, Fare: 50.0, Cabin: A32 ,Embarked at: S
+
+Passenger ID: 56, Status: 1, Class: 1, Name:  HughWoolner, Gender: male, Age: null, Siblings: 0, Parents: 0, Ticket Number: 19947, Fare: 35.5, Cabin: C52 ,Embarked at: S
+
+Passenger ID: 567, Status: 0, Class: 3, Name:  IliaStoytcheff, Gender: male, Age: 19.0, Siblings: 0, Parents: 0, Ticket Number: 349205, Fare: 7.8958, Cabin:  ,Embarked at: S
+
+Passenger ID: 841, Status: 0, Class: 3, Name:  Ilmari RudolfAlhomaki, Gender: male, Age: 20.0, Siblings: 0, Parents: 0, Ticket Number: SOTON/O2 3101287, Fare: 7.925, Cabin:  ,Embarked at: S
+
+Passenger ID: 464, Status: 0, Class: 2, Name:  Jacob ChristianMilling, Gender: male, Age: 48.0, Siblings: 0, Parents: 0, Ticket Number: 234360, Fare: 13.0, Cabin:  ,Embarked at: S
+
+Passenger ID: 4, Status: 1, Class: 1, Name:  Jacques Heath Lily May PeelFutrelle, Gender: female, Age: 35.0, Siblings: 1, Parents: 0, Ticket Number: 113803, Fare: 53.1, Cabin: C123 ,Embarked at: S
+
+Passenger ID: 138, Status: 0, Class: 1, Name:  Jacques HeathFutrelle, Gender: male, Age: 37.0, Siblings: 1, Parents: 0, Ticket Number: 113803, Fare: 53.1, Cabin: C123 ,Embarked at: S
+
+Passenger ID: 203, Status: 0, Class: 3, Name:  Jakob AlfredJohanson, Gender: male, Age: 34.0, Siblings: 0, Parents: 0, Ticket Number: 3101264, Fare: 6.4958, Cabin:  ,Embarked at: S
+
+Passenger ID: 175, Status: 0, Class: 1, Name:  James ClinchSmith, Gender: male, Age: 56.0, Siblings: 0, Parents: 0, Ticket Number: 17764, Fare: 30.6958, Cabin: A7 ,Embarked at: C
+
+Passenger ID: 162, Status: 1, Class: 2, Name:  James Elizabeth Bessie Inglis MilneWatt, Gender: female, Age: 40.0, Siblings: 0, Parents: 0, Ticket Number: C.A. 33595, Fare: 15.75, Cabin:  ,Embarked at: S
+
+Passenger ID: 300, Status: 1, Class: 1, Name:  James Helene DeLaudeniere ChaputBaxter, Gender: female, Age: 50.0, Siblings: 0, Parents: 1, Ticket Number: PC 17558, Fare: 247.5208, Cabin: B58 B60 ,Embarked at: C
+
+Passenger ID: 195, Status: 1, Class: 1, Name:  James Joseph Margaret TobinBrown, Gender: female, Age: 44.0, Siblings: 0, Parents: 0, Ticket Number: PC 17610, Fare: 27.7208, Cabin: B4 ,Embarked at: C
+
+Passenger ID: 513, Status: 1, Class: 1, Name:  James RobertMcGough, Gender: male, Age: 36.0, Siblings: 0, Parents: 0, Ticket Number: PC 17473, Fare: 26.2875, Cabin: E25 ,Embarked at: S
+
+Passenger ID: 417, Status: 1, Class: 2, Name:  James Vivian Lulu Thorne ChristianDrew, Gender: female, Age: 34.0, Siblings: 1, Parents: 1, Ticket Number: 28220, Fare: 32.5, Cabin:  ,Embarked at: S
+
+Passenger ID: 82, Status: 1, Class: 3, Name:  Jan BaptistSheerlinck, Gender: male, Age: 29.0, Siblings: 0, Parents: 0, Ticket Number: 345779, Fare: 9.5, Cabin:  ,Embarked at: S
+
+Passenger ID: 330, Status: 1, Class: 1, Name:  Jean GertrudeHippach, Gender: female, Age: 16.0, Siblings: 0, Parents: 1, Ticket Number: 111361, Fare: 57.9792, Cabin: B18 ,Embarked at: C
+
+Passenger ID: 144, Status: 0, Class: 3, Name:  JeremiahBurke, Gender: male, Age: 19.0, Siblings: 0, Parents: 0, Ticket Number: 365222, Fare: 6.75, Cabin:  ,Embarked at: Q
+
+Passenger ID: 597, Status: 1, Class: 2, Name:  Jessie WillsLeitch, Gender: female, Age: null, Siblings: 0, Parents: 0, Ticket Number: 248727, Fare: 33.0, Cabin:  ,Embarked at: S
+
+Passenger ID: 393, Status: 0, Class: 3, Name:  Johan BirgerGustafsson, Gender: male, Age: 28.0, Siblings: 2, Parents: 0, Ticket Number: 3101277, Fare: 7.925, Cabin:  ,Embarked at: S
+
+Passenger ID: 443, Status: 0, Class: 3, Name:  Johan EmilPetterson, Gender: male, Age: 25.0, Siblings: 1, Parents: 0, Ticket Number: 347076, Fare: 7.775, Cabin:  ,Embarked at: S
+
+Passenger ID: 327, Status: 0, Class: 3, Name:  Johan HansenNysveen, Gender: male, Age: 61.0, Siblings: 0, Parents: 0, Ticket Number: 345364, Fare: 6.2375, Cabin:  ,Embarked at: S
+
+Passenger ID: 440, Status: 0, Class: 2, Name:  Johan Henrik JohannessonKvillner, Gender: male, Age: 31.0, Siblings: 0, Parents: 0, Ticket Number: C.A. 18723, Fare: 10.5, Cabin:  ,Embarked at: S
+
+Passenger ID: 41, Status: 0, Class: 3, Name:  Johan Johanna Persdotter LarssonAhlin, Gender: female, Age: 40.0, Siblings: 1, Parents: 0, Ticket Number: 7546, Fare: 9.475, Cabin:  ,Embarked at: S
+
+Passenger ID: 415, Status: 1, Class: 3, Name:  Johan JulianSundman, Gender: male, Age: 44.0, Siblings: 0, Parents: 0, Ticket Number: STON/O 2. 3101269, Fare: 7.925, Cabin:  ,Embarked at: S
+
+Passenger ID: 632, Status: 0, Class: 3, Name:  Johan SvenssonLundahl, Gender: male, Age: 51.0, Siblings: 0, Parents: 0, Ticket Number: 347743, Fare: 7.0542, Cabin:  ,Embarked at: S
+
+Passenger ID: 529, Status: 0, Class: 3, Name:  Johan WernerSalonen, Gender: male, Age: 39.0, Siblings: 0, Parents: 0, Ticket Number: 3101296, Fare: 7.925, Cabin:  ,Embarked at: S
+
+Passenger ID: 130, Status: 0, Class: 3, Name:  JohanEkstrom, Gender: male, Age: 45.0, Siblings: 0, Parents: 0, Ticket Number: 347061, Fare: 6.975, Cabin:  ,Embarked at: S
+
+Passenger ID: 852, Status: 0, Class: 3, Name:  JohanSvensson, Gender: male, Age: 74.0, Siblings: 0, Parents: 0, Ticket Number: 347060, Fare: 7.775, Cabin:  ,Embarked at: S
+
+Passenger ID: 882, Status: 0, Class: 3, Name:  JohannMarkun, Gender: male, Age: 33.0, Siblings: 0, Parents: 0, Ticket Number: 349257, Fare: 7.8958, Cabin:  ,Embarked at: S
+
+Passenger ID: 653, Status: 0, Class: 3, Name:  Johannes HalvorsenKalvik, Gender: male, Age: 21.0, Siblings: 0, Parents: 0, Ticket Number: 8475, Fare: 8.4333, Cabin:  ,Embarked at: S
+
+Passenger ID: 753, Status: 0, Class: 3, Name:  Johannes JosephVande, Gender: male, Age: 33.0, Siblings: 0, Parents: 0, Ticket Number: 345780, Fare: 9.5, Cabin:  ,Embarked at: S
+
+Passenger ID: 551, Status: 1, Class: 1, Name:  John Borland JrThayer, Gender: male, Age: 17.0, Siblings: 0, Parents: 2, Ticket Number: 17421, Fare: 110.8833, Cabin: C70 ,Embarked at: C
+
+Passenger ID: 582, Status: 1, Class: 1, Name:  John Borland Marian Longstreth MorrisThayer, Gender: female, Age: 39.0, Siblings: 1, Parents: 1, Ticket Number: 17421, Fare: 110.8833, Cabin: C68 ,Embarked at: C
+
+Passenger ID: 699, Status: 0, Class: 1, Name:  John BorlandThayer, Gender: male, Age: 49.0, Siblings: 1, Parents: 1, Ticket Number: 17421, Fare: 110.8833, Cabin: C68 ,Embarked at: C
+
+Passenger ID: 2, Status: 1, Class: 1, Name:  John Bradley Florence Briggs ThayerCumings, Gender: female, Age: 38.0, Siblings: 1, Parents: 0, Ticket Number: PC 17599, Fare: 71.2833, Cabin: C85 ,Embarked at: C
+
+Passenger ID: 766, Status: 1, Class: 1, Name:  John C Anna AndrewsHogeboom, Gender: female, Age: 51.0, Siblings: 1, Parents: 0, Ticket Number: 13502, Fare: 77.9583, Cabin: D11 ,Embarked at: S
+
+Passenger ID: 658, Status: 0, Class: 3, Name:  John CatherineBourke, Gender: female, Age: 32.0, Siblings: 1, Parents: 1, Ticket Number: 364849, Fare: 15.5, Cabin:  ,Embarked at: Q
+
+Passenger ID: 169, Status: 0, Class: 1, Name:  John DBaumann, Gender: male, Age: null, Siblings: 0, Parents: 0, Ticket Number: PC 17318, Fare: 25.925, Cabin:  ,Embarked at: S
+
+Passenger ID: 587, Status: 0, Class: 2, Name:  John DenzilJarvis, Gender: male, Age: 47.0, Siblings: 0, Parents: 0, Ticket Number: 237565, Fare: 15.0, Cabin:  ,Embarked at: S
+
+Passenger ID: 819, Status: 0, Class: 3, Name:  John Fredrik AlexanderHolm, Gender: male, Age: 43.0, Siblings: 0, Parents: 0, Ticket Number: C 7075, Fare: 6.45, Cabin:  ,Embarked at: S
+
+Passenger ID: 823, Status: 0, Class: 1, Name:  John GeorgeReuchlin, Gender: male, Age: 38.0, Siblings: 0, Parents: 0, Ticket Number: 19972, Fare: 0.0, Cabin:  ,Embarked at: S
+
+Passenger ID: 228, Status: 0, Class: 3, Name:  John Hall HenryLovell, Gender: male, Age: 20.5, Siblings: 0, Parents: 0, Ticket Number: A/5 21173, Fare: 7.25, Cabin:  ,Embarked at: S
+
+Passenger ID: 161, Status: 0, Class: 3, Name:  John HatfieldCribb, Gender: male, Age: 44.0, Siblings: 0, Parents: 1, Ticket Number: 371362, Fare: 16.1, Cabin:  ,Embarked at: S
+
+Passenger ID: 595, Status: 0, Class: 2, Name:  John HenryChapman, Gender: male, Age: 37.0, Siblings: 1, Parents: 0, Ticket Number: SC/AH 29037, Fare: 26.0, Cabin:  ,Embarked at: S
+
+Passenger ID: 213, Status: 0, Class: 3, Name:  John HenryPerkin, Gender: male, Age: 22.0, Siblings: 0, Parents: 0, Ticket Number: A/5 21174, Fare: 7.25, Cabin:  ,Embarked at: S
+
+Passenger ID: 584, Status: 0, Class: 1, Name:  John HugoRoss, Gender: male, Age: 36.0, Siblings: 0, Parents: 0, Ticket Number: 13049, Fare: 40.125, Cabin: A10 ,Embarked at: C
+
+Passenger ID: 573, Status: 1, Class: 1, Name:  John Irwin IrvingFlynn, Gender: male, Age: 36.0, Siblings: 0, Parents: 0, Ticket Number: PC 17474, Fare: 26.3875, Cabin: E25 ,Embarked at: S
+
+Passenger ID: 701, Status: 1, Class: 1, Name:  John Jacob Madeleine Talmadge ForceAstor, Gender: female, Age: 18.0, Siblings: 1, Parents: 0, Ticket Number: PC 17757, Fare: 227.525, Cabin: C62 C64 ,Embarked at: C
+
+Passenger ID: 468, Status: 0, Class: 1, Name:  John MontgomerySmart, Gender: male, Age: 56.0, Siblings: 0, Parents: 0, Ticket Number: 113792, Fare: 26.55, Cabin:  ,Embarked at: S
+
+Passenger ID: 550, Status: 1, Class: 2, Name:  John Morgan JrDavies, Gender: male, Age: 8.0, Siblings: 1, Parents: 1, Ticket Number: C.A. 33112, Fare: 36.75, Cabin:  ,Embarked at: S
+
+Passenger ID: 99, Status: 1, Class: 2, Name:  John T Ada Julia BoneDoling, Gender: female, Age: 34.0, Siblings: 0, Parents: 1, Ticket Number: 231919, Fare: 23.0, Cabin:  ,Embarked at: S
+
+Passenger ID: 163, Status: 0, Class: 3, Name:  John ViktorBengtsson, Gender: male, Age: 26.0, Siblings: 0, Parents: 0, Ticket Number: 347068, Fare: 7.775, Cabin:  ,Embarked at: S
+
+Passenger ID: 865, Status: 0, Class: 2, Name:  John WilliamGill, Gender: male, Age: 24.0, Siblings: 0, Parents: 0, Ticket Number: 233866, Fare: 13.0, Cabin:  ,Embarked at: S
+
+Passenger ID: 402, Status: 0, Class: 3, Name:  JohnAdams, Gender: male, Age: 26.0, Siblings: 0, Parents: 0, Ticket Number: 341826, Fare: 8.05, Cabin:  ,Embarked at: S
+
+Passenger ID: 189, Status: 0, Class: 3, Name:  JohnBourke, Gender: male, Age: 40.0, Siblings: 1, Parents: 1, Ticket Number: 364849, Fare: 15.5, Cabin:  ,Embarked at: Q
+
+Passenger ID: 528, Status: 0, Class: 1, Name:  JohnFarthing, Gender: male, Age: null, Siblings: 0, Parents: 0, Ticket Number: PC 17483, Fare: 221.7792, Cabin: C95 ,Embarked at: S
+
+Passenger ID: 826, Status: 0, Class: 3, Name:  JohnFlynn, Gender: male, Age: null, Siblings: 0, Parents: 0, Ticket Number: 368323, Fare: 6.95, Cabin:  ,Embarked at: Q
+
+Passenger ID: 761, Status: 0, Class: 3, Name:  JohnGarfirth, Gender: male, Age: null, Siblings: 0, Parents: 0, Ticket Number: 358585, Fare: 14.5, Cabin:  ,Embarked at: S
+
+Passenger ID: 849, Status: 0, Class: 2, Name:  JohnHarper, Gender: male, Age: 28.0, Siblings: 0, Parents: 1, Ticket Number: 248727, Fare: 33.0, Cabin:  ,Embarked at: S
+
+Passenger ID: 614, Status: 0, Class: 3, Name:  JohnHorgan, Gender: male, Age: null, Siblings: 0, Parents: 0, Ticket Number: 370377, Fare: 7.75, Cabin:  ,Embarked at: Q
+
+Passenger ID: 564, Status: 0, Class: 3, Name:  JohnSimmons, Gender: male, Age: null, Siblings: 0, Parents: 0, Ticket Number: SOTON/OQ 392082, Fare: 8.05, Cabin:  ,Embarked at: S
+
+Passenger ID: 695, Status: 0, Class: 1, Name:  JohnWeir, Gender: male, Age: 60.0, Siblings: 0, Parents: 0, Ticket Number: 113800, Fare: 26.55, Cabin:  ,Embarked at: S
+
+Passenger ID: 50, Status: 0, Class: 3, Name:  Josef Josefine FranchiArnoldFranchi, Gender: female, Age: 18.0, Siblings: 1, Parents: 0, Ticket Number: 349237, Fare: 17.8, Cabin:  ,Embarked at: S
+
+Passenger ID: 354, Status: 0, Class: 3, Name:  JosefArnoldFranchi, Gender: male, Age: 25.0, Siblings: 1, Parents: 0, Ticket Number: 349237, Fare: 17.8, Cabin:  ,Embarked at: S
+
+Passenger ID: 146, Status: 0, Class: 2, Name:  Joseph CharlesNicholls, Gender: male, Age: 19.0, Siblings: 1, Parents: 1, Ticket Number: C.A. 33112, Fare: 36.75, Cabin:  ,Embarked at: S
+
+Passenger ID: 21, Status: 0, Class: 2, Name:  Joseph JFynney, Gender: male, Age: 35.0, Siblings: 0, Parents: 0, Ticket Number: 239865, Fare: 26.0, Cabin:  ,Embarked at: S
+
+Passenger ID: 533, Status: 0, Class: 3, Name:  Joseph JrElias, Gender: male, Age: 17.0, Siblings: 1, Parents: 1, Ticket Number: 2690, Fare: 7.2292, Cabin:  ,Embarked at: C
+
+Passenger ID: 609, Status: 1, Class: 2, Name:  Joseph Juliette Marie Louise LafargueLaroche, Gender: female, Age: 22.0, Siblings: 1, Parents: 2, Ticket Number: SC/Paris 2123, Fare: 41.5792, Cabin:  ,Embarked at: C
+
+Passenger ID: 579, Status: 0, Class: 3, Name:  Joseph Maria EliasCaram, Gender: female, Age: null, Siblings: 1, Parents: 0, Ticket Number: 2689, Fare: 14.4583, Cabin:  ,Embarked at: C
+
+Passenger ID: 686, Status: 0, Class: 2, Name:  Joseph Philippe LemercierLaroche, Gender: male, Age: 25.0, Siblings: 1, Parents: 2, Ticket Number: SC/Paris 2123, Fare: 41.5792, Cabin:  ,Embarked at: C
+
+Passenger ID: 141, Status: 0, Class: 3, Name:  Joseph SultanaBoulos, Gender: female, Age: null, Siblings: 0, Parents: 2, Ticket Number: 2678, Fare: 15.2458, Cabin:  ,Embarked at: C
+
+Passenger ID: 590, Status: 0, Class: 3, Name:  JosephMurdlin, Gender: male, Age: null, Siblings: 0, Parents: 0, Ticket Number: A./5. 3235, Fare: 8.05, Cabin:  ,Embarked at: S
+
+Passenger ID: 455, Status: 0, Class: 3, Name:  JosephPeduzzi, Gender: male, Age: null, Siblings: 0, Parents: 0, Ticket Number: A/5 2817, Fare: 8.05, Cabin:  ,Embarked at: S
+
+Passenger ID: 639, Status: 0, Class: 3, Name:  Juha Maria Emilia OjalaPanula, Gender: female, Age: 41.0, Siblings: 0, Parents: 5, Ticket Number: 3101295, Fare: 39.6875, Cabin:  ,Embarked at: S
+
+Passenger ID: 51, Status: 0, Class: 3, Name:  Juha NiiloPanula, Gender: male, Age: 7.0, Siblings: 4, Parents: 1, Ticket Number: 3101295, Fare: 39.6875, Cabin:  ,Embarked at: S
+
+Passenger ID: 401, Status: 1, Class: 3, Name:  JuhaNiskanen, Gender: male, Age: 39.0, Siblings: 0, Parents: 0, Ticket Number: STON/O 2. 3101289, Fare: 7.925, Cabin:  ,Embarked at: S
+
+Passenger ID: 745, Status: 1, Class: 3, Name:  JuhoStranden, Gender: male, Age: 31.0, Siblings: 0, Parents: 0, Ticket Number: STON/O 2. 3101288, Fare: 7.925, Cabin:  ,Embarked at: S
+
+Passenger ID: 383, Status: 0, Class: 3, Name:  JuhoTikkanen, Gender: male, Age: 32.0, Siblings: 0, Parents: 0, Ticket Number: STON/O 2. 3101293, Fare: 7.925, Cabin:  ,Embarked at: S
+
+Passenger ID: 581, Status: 1, Class: 2, Name:  Julie RachelChristy, Gender: female, Age: 25.0, Siblings: 1, Parents: 1, Ticket Number: 237789, Fare: 30.0, Cabin:  ,Embarked at: S
+
+Passenger ID: 86, Status: 1, Class: 3, Name:  Karl Alfred Maria Mathilda GustafssonBackstrom, Gender: female, Age: 33.0, Siblings: 3, Parents: 0, Ticket Number: 3101278, Fare: 15.85, Cabin:  ,Embarked at: S
+
+Passenger ID: 339, Status: 1, Class: 3, Name:  Karl EdwartDahl, Gender: male, Age: 45.0, Siblings: 0, Parents: 0, Ticket Number: 7598, Fare: 8.05, Cabin:  ,Embarked at: S
+
+Passenger ID: 890, Status: 1, Class: 1, Name:  Karl HowellBehr, Gender: male, Age: 26.0, Siblings: 0, Parents: 0, Ticket Number: 111369, Fare: 30.0, Cabin: C148 ,Embarked at: C
+
+Passenger ID: 806, Status: 0, Class: 3, Name:  Karl JohanJohansson, Gender: male, Age: 31.0, Siblings: 0, Parents: 0, Ticket Number: 347063, Fare: 7.775, Cabin:  ,Embarked at: S
+
+Passenger ID: 820, Status: 0, Class: 3, Name:  Karl ThorstenSkoog, Gender: male, Age: 10.0, Siblings: 3, Parents: 2, Ticket Number: 347088, Fare: 27.9, Cabin:  ,Embarked at: S
+
+Passenger ID: 428, Status: 1, Class: 2, Name:  Kate Florence Mrs Kate Louise Phillips MarshallPhillips, Gender: female, Age: 19.0, Siblings: 0, Parents: 0, Ticket Number: 250655, Fare: 26.0, Cabin:  ,Embarked at: S
+
+Passenger ID: 242, Status: 1, Class: 3, Name:  Katherine KateMurphy, Gender: female, Age: null, Siblings: 1, Parents: 0, Ticket Number: 367230, Fare: 15.5, Cabin:  ,Embarked at: Q
+
+Passenger ID: 157, Status: 1, Class: 3, Name:  Katherine KatieGilnagh, Gender: female, Age: 16.0, Siblings: 0, Parents: 0, Ticket Number: 35851, Fare: 7.7333, Cabin:  ,Embarked at: Q
+
+Passenger ID: 698, Status: 1, Class: 3, Name:  Katherine KatieMullens, Gender: female, Age: null, Siblings: 0, Parents: 0, Ticket Number: 35852, Fare: 7.7333, Cabin:  ,Embarked at: Q
+
+Passenger ID: 694, Status: 0, Class: 3, Name:  KhalilSaad, Gender: male, Age: 25.0, Siblings: 0, Parents: 0, Ticket Number: 2672, Fare: 7.225, Cabin:  ,Embarked at: C
+
+Passenger ID: 491, Status: 0, Class: 3, Name:  Konrad Mathias ReiersenHagland, Gender: male, Age: null, Siblings: 1, Parents: 0, Ticket Number: 65304, Fare: 19.9667, Cabin:  ,Embarked at: S
+
+Passenger ID: 276, Status: 1, Class: 1, Name:  Kornelia TheodosiaAndrews, Gender: female, Age: 63.0, Siblings: 1, Parents: 0, Ticket Number: 13502, Fare: 77.9583, Cabin: D7 ,Embarked at: S
+
+Passenger ID: 729, Status: 0, Class: 2, Name:  Kurt Arnold GottfridBryhl, Gender: male, Age: 25.0, Siblings: 1, Parents: 0, Ticket Number: 236853, Fare: 26.0, Cabin:  ,Embarked at: S
+
+Passenger ID: 122, Status: 0, Class: 3, Name:  Leonard CharlesMoore, Gender: male, Age: null, Siblings: 0, Parents: 0, Ticket Number: A4. 54510, Fare: 8.05, Cabin:  ,Embarked at: S
+
+Passenger ID: 134, Status: 1, Class: 2, Name:  Leopold Mathilde Francoise PedeWeisz, Gender: female, Age: 29.0, Siblings: 1, Parents: 0, Ticket Number: 228414, Fare: 26.0, Cabin:  ,Embarked at: S
+
+Passenger ID: 478, Status: 0, Class: 3, Name:  Lewis RichardBraund, Gender: male, Age: 29.0, Siblings: 1, Parents: 0, Ticket Number: 3460, Fare: 7.0458, Cabin:  ,Embarked at: S
+
+Passenger ID: 54, Status: 1, Class: 2, Name:  Lizzie Elizabeth Anne WilkinsonFaunthorpe, Gender: female, Age: 29.0, Siblings: 1, Parents: 0, Ticket Number: 2926, Fare: 26.0, Cabin:  ,Embarked at: S
+
+Passenger ID: 524, Status: 1, Class: 1, Name:  Louis Albert Ida Sophia FischerHippach, Gender: female, Age: 44.0, Siblings: 0, Parents: 1, Ticket Number: 111361, Fare: 57.9792, Cabin: B18 ,Embarked at: C
+
+Passenger ID: 557, Status: 1, Class: 1, Name:  Lucille Christiana Sutherland Mrs MorganDuff, Gender: female, Age: 48.0, Siblings: 1, Parents: 0, Ticket Number: 11755, Fare: 39.6, Cabin: A16 ,Embarked at: C
+
+Passenger ID: 185, Status: 1, Class: 3, Name:  Luise GretchenKinkHeilmann, Gender: female, Age: 4.0, Siblings: 0, Parents: 2, Ticket Number: 315153, Fare: 22.025, Cabin:  ,Embarked at: S
+
+Passenger ID: 260, Status: 1, Class: 2, Name:  Lutie DavisParrish, Gender: female, Age: 50.0, Siblings: 0, Parents: 1, Ticket Number: 230433, Fare: 26.0, Cabin:  ,Embarked at: S
+
+Passenger ID: 115, Status: 0, Class: 3, Name:  MalakeAttalah, Gender: female, Age: 17.0, Siblings: 0, Parents: 0, Ticket Number: 2627, Fare: 14.4583, Cabin:  ,Embarked at: C
+
+Passenger ID: 720, Status: 0, Class: 3, Name:  Malkolm JoackimJohnson, Gender: male, Age: 33.0, Siblings: 0, Parents: 0, Ticket Number: 347062, Fare: 7.775, Cabin:  ,Embarked at: S
+
+Passenger ID: 31, Status: 0, Class: 1, Name:  Manuel EUruchurtu, Gender: male, Age: 40.0, Siblings: 0, Parents: 0, Ticket Number: PC 17601, Fare: 27.7208, Cabin:  ,Embarked at: C
+
+Passenger ID: 311, Status: 1, Class: 1, Name:  Margaret BechsteinHays, Gender: female, Age: 24.0, Siblings: 0, Parents: 0, Ticket Number: 11767, Fare: 83.1583, Cabin: C54 ,Embarked at: C
+
+Passenger ID: 888, Status: 1, Class: 1, Name:  Margaret EdithGraham, Gender: female, Age: 19.0, Siblings: 0, Parents: 0, Ticket Number: 112053, Fare: 30.0, Cabin: B42 ,Embarked at: S
+
+Passenger ID: 613, Status: 1, Class: 3, Name:  Margaret JaneMurphy, Gender: female, Age: null, Siblings: 1, Parents: 0, Ticket Number: 367230, Fare: 15.5, Cabin:  ,Embarked at: Q
+
+Passenger ID: 728, Status: 1, Class: 3, Name:  MargarethMannion, Gender: female, Age: null, Siblings: 0, Parents: 0, Ticket Number: 36866, Fare: 7.7375, Cabin:  ,Embarked at: Q
+
+Passenger ID: 643, Status: 0, Class: 3, Name:  Margit ElizabethSkoog, Gender: female, Age: 2.0, Siblings: 3, Parents: 2, Ticket Number: 347088, Fare: 27.9, Cabin:  ,Embarked at: S
+
+Passenger ID: 449, Status: 1, Class: 3, Name:  Marie CatherineBaclini, Gender: female, Age: 5.0, Siblings: 2, Parents: 1, Ticket Number: 2666, Fare: 19.2583, Cabin:  ,Embarked at: C
+
+Passenger ID: 347, Status: 1, Class: 2, Name:  Marion ElsieSmith, Gender: female, Age: 40.0, Siblings: 0, Parents: 0, Ticket Number: 31418, Fare: 13.0, Cabin:  ,Embarked at: S
+
+Passenger ID: 514, Status: 1, Class: 1, Name:  Martin Elizabeth L BarrettRothschild, Gender: female, Age: 54.0, Siblings: 1, Parents: 0, Ticket Number: PC 17603, Fare: 59.4, Cabin:  ,Embarked at: C
+
+Passenger ID: 704, Status: 0, Class: 3, Name:  MartinGallagher, Gender: male, Age: 25.0, Siblings: 0, Parents: 0, Ticket Number: 36864, Fare: 7.7417, Cabin:  ,Embarked at: Q
+
+Passenger ID: 127, Status: 0, Class: 3, Name:  MartinMcMahon, Gender: male, Age: null, Siblings: 0, Parents: 0, Ticket Number: 370372, Fare: 7.75, Cabin:  ,Embarked at: Q
+
+Passenger ID: 33, Status: 1, Class: 3, Name:  Mary AgathaGlynn, Gender: female, Age: null, Siblings: 0, Parents: 0, Ticket Number: 335677, Fare: 7.75, Cabin:  ,Embarked at: Q
+
+Passenger ID: 230, Status: 0, Class: 3, Name:  MathildeLefebre, Gender: female, Age: null, Siblings: 3, Parents: 1, Ticket Number: 4133, Fare: 25.4667, Cabin:  ,Embarked at: S
+
+Passenger ID: 389, Status: 0, Class: 3, Name:  MatthewSadlier, Gender: male, Age: null, Siblings: 0, Parents: 0, Ticket Number: 367655, Fare: 7.7292, Cabin:  ,Embarked at: Q
+
+Passenger ID: 366, Status: 0, Class: 3, Name:  Mauritz Nils MartinAdahl, Gender: male, Age: 30.0, Siblings: 0, Parents: 0, Ticket Number: C 7076, Fare: 7.25, Cabin:  ,Embarked at: S
+
+Passenger ID: 633, Status: 1, Class: 1, Name:  MaxStahelinMaeglin, Gender: male, Age: 32.0, Siblings: 0, Parents: 0, Ticket Number: 13214, Fare: 30.5, Cabin: B50 ,Embarked at: C
+
+Passenger ID: 588, Status: 1, Class: 1, Name:  MaxmillianFrolicherStehli, Gender: male, Age: 60.0, Siblings: 1, Parents: 1, Ticket Number: 13567, Fare: 79.2, Cabin: B41 ,Embarked at: C
+
+Passenger ID: 750, Status: 0, Class: 3, Name:  MichaelConnaghton, Gender: male, Age: 31.0, Siblings: 0, Parents: 0, Ticket Number: 335097, Fare: 7.75, Cabin:  ,Embarked at: Q
+
+Passenger ID: 719, Status: 0, Class: 3, Name:  MichaelMcEvoy, Gender: male, Age: null, Siblings: 0, Parents: 0, Ticket Number: 36568, Fare: 15.5, Cabin:  ,Embarked at: Q
+
+Passenger ID: 149, Status: 0, Class: 2, Name:  Michel Louis M HoffmanNavratil, Gender: male, Age: 36.5, Siblings: 0, Parents: 2, Ticket Number: 230080, Fare: 26.0, Cabin: F2 ,Embarked at: S
+
+Passenger ID: 194, Status: 1, Class: 2, Name:  Michel MNavratil, Gender: male, Age: 3.0, Siblings: 1, Parents: 1, Ticket Number: 230080, Fare: 26.0, Cabin: F2 ,Embarked at: S
+
+Passenger ID: 662, Status: 0, Class: 3, Name:  MohamedBadt, Gender: male, Age: 40.0, Siblings: 0, Parents: 0, Ticket Number: 2623, Fare: 7.225, Cabin:  ,Embarked at: C
+
+Passenger ID: 10, Status: 1, Class: 2, Name:  Nicholas Adele AchemNasser, Gender: female, Age: 14.0, Siblings: 1, Parents: 0, Ticket Number: 237736, Fare: 30.0708, Cabin:  ,Embarked at: C
+
+Passenger ID: 123, Status: 0, Class: 2, Name:  NicholasNasser, Gender: male, Age: 32.5, Siblings: 1, Parents: 0, Ticket Number: 237736, Fare: 30.0708, Cabin:  ,Embarked at: C
+
+Passenger ID: 282, Status: 0, Class: 3, Name:  Nils Johan GoranssonOlsson, Gender: male, Age: 28.0, Siblings: 0, Parents: 0, Ticket Number: 347464, Fare: 7.8542, Cabin:  ,Embarked at: S
+
+Passenger ID: 351, Status: 0, Class: 3, Name:  Nils MartinOdahl, Gender: male, Age: 23.0, Siblings: 0, Parents: 0, Ticket Number: 7267, Fare: 9.225, Cabin:  ,Embarked at: S
+
+Passenger ID: 810, Status: 1, Class: 1, Name:  Norman Campbell Bertha GriggsChambers, Gender: female, Age: 33.0, Siblings: 1, Parents: 0, Ticket Number: 113806, Fare: 53.1, Cabin: E8 ,Embarked at: S
+
+Passenger ID: 725, Status: 1, Class: 1, Name:  Norman CampbellChambers, Gender: male, Age: 27.0, Siblings: 1, Parents: 0, Ticket Number: 113806, Fare: 53.1, Cabin: E8 ,Embarked at: S
+
+Passenger ID: 9, Status: 1, Class: 3, Name:  Oscar W Elisabeth Vilhelmina BergJohnson, Gender: female, Age: 27.0, Siblings: 0, Parents: 2, Ticket Number: 347742, Fare: 11.1333, Cabin:  ,Embarked at: S
+
+Passenger ID: 102, Status: 0, Class: 3, Name:  Pastcho PentchoPetroff, Gender: male, Age: null, Siblings: 0, Parents: 0, Ticket Number: 349215, Fare: 7.8958, Cabin:  ,Embarked at: S
+
+Passenger ID: 776, Status: 0, Class: 3, Name:  Pehr Fabian Oliver MalkolmMyhrman, Gender: male, Age: 18.0, Siblings: 0, Parents: 0, Ticket Number: 347078, Fare: 7.75, Cabin:  ,Embarked at: S
+
+Passenger ID: 432, Status: 1, Class: 3, Name:  Percival Florence Kate WhiteThorneycroft, Gender: female, Age: null, Siblings: 1, Parents: 0, Ticket Number: 376564, Fare: 16.1, Cabin:  ,Embarked at: S
+
+Passenger ID: 552, Status: 0, Class: 2, Name:  Percival James RSharp, Gender: male, Age: 27.0, Siblings: 0, Parents: 0, Ticket Number: 244358, Fare: 26.0, Cabin:  ,Embarked at: S
+
+Passenger ID: 125, Status: 0, Class: 1, Name:  Percival WaylandWhite, Gender: male, Age: 54.0, Siblings: 0, Parents: 1, Ticket Number: 35281, Fare: 77.2875, Cabin: D26 ,Embarked at: S
+
+Passenger ID: 640, Status: 0, Class: 3, Name:  PercivalThorneycroft, Gender: male, Age: null, Siblings: 1, Parents: 0, Ticket Number: 376564, Fare: 16.1, Cabin:  ,Embarked at: S
+
+Passenger ID: 716, Status: 0, Class: 3, Name:  Peter Andreas Lauritz AndersenSoholt, Gender: male, Age: 19.0, Siblings: 0, Parents: 0, Ticket Number: 348124, Fare: 7.65, Cabin: F G73 ,Embarked at: S
+
+Passenger ID: 869, Status: 0, Class: 3, Name:  Philemonvan, Gender: male, Age: null, Siblings: 0, Parents: 0, Ticket Number: 345777, Fare: 9.5, Cabin:  ,Embarked at: S
+
+Passenger ID: 215, Status: 0, Class: 3, Name:  PhilipKiernan, Gender: male, Age: null, Siblings: 1, Parents: 0, Ticket Number: 367229, Fare: 7.75, Cabin:  ,Embarked at: Q
+
+Passenger ID: 426, Status: 0, Class: 3, Name:  PhillippeWiseman, Gender: male, Age: null, Siblings: 0, Parents: 0, Ticket Number: A/4. 34244, Fare: 7.25, Cabin:  ,Embarked at: S
+
+Passenger ID: 531, Status: 1, Class: 2, Name:  Phyllis MayQuick, Gender: female, Age: 2.0, Siblings: 1, Parents: 1, Ticket Number: 26360, Fare: 26.0, Cabin:  ,Embarked at: S
+
+Passenger ID: 840, Status: 1, Class: 1, Name:  PierreMarechal, Gender: male, Age: null, Siblings: 0, Parents: 0, Ticket Number: 11774, Fare: 29.7, Cabin: C47 ,Embarked at: C
+
+Passenger ID: 78, Status: 0, Class: 3, Name:  Rahamin HaimMoutal, Gender: male, Age: null, Siblings: 0, Parents: 0, Ticket Number: 374746, Fare: 8.05, Cabin:  ,Embarked at: S
+
+Passenger ID: 860, Status: 0, Class: 3, Name:  RaihedRazi, Gender: male, Age: null, Siblings: 0, Parents: 0, Ticket Number: 2629, Fare: 7.2292, Cabin:  ,Embarked at: C
+
+Passenger ID: 243, Status: 0, Class: 2, Name:  Reginald CharlesColeridge, Gender: male, Age: 29.0, Siblings: 0, Parents: 0, Ticket Number: W./C. 14263, Fare: 10.5, Cabin:  ,Embarked at: S
+
+Passenger ID: 52, Status: 0, Class: 3, Name:  Richard CaterNosworthy, Gender: male, Age: 21.0, Siblings: 0, Parents: 0, Ticket Number: A/4. 39886, Fare: 7.8, Cabin:  ,Embarked at: S
+
+Passenger ID: 184, Status: 1, Class: 2, Name:  Richard FBecker, Gender: male, Age: 1.0, Siblings: 2, Parents: 1, Ticket Number: 230136, Fare: 39.0, Cabin: F4 ,Embarked at: S
+
+Passenger ID: 103, Status: 0, Class: 1, Name:  Richard FrasarWhite, Gender: male, Age: 21.0, Siblings: 0, Parents: 1, Ticket Number: 35281, Fare: 77.2875, Cabin: D26 ,Embarked at: S
+
+Passenger ID: 530, Status: 0, Class: 2, Name:  Richard GeorgeHocking, Gender: male, Age: 23.0, Siblings: 2, Parents: 1, Ticket Number: 29104, Fare: 11.5, Cabin:  ,Embarked at: S
+
+Passenger ID: 483, Status: 0, Class: 3, Name:  Richard HenryRouse, Gender: male, Age: 50.0, Siblings: 0, Parents: 0, Ticket Number: A/5 3594, Fare: 8.05, Cabin:  ,Embarked at: S
+
+Passenger ID: 813, Status: 0, Class: 2, Name:  Richard JamesSlemen, Gender: male, Age: 35.0, Siblings: 0, Parents: 0, Ticket Number: 28206, Fare: 10.5, Cabin:  ,Embarked at: S
+
+Passenger ID: 872, Status: 1, Class: 1, Name:  Richard Leonard Sallie MonypenyBeckwith, Gender: female, Age: 47.0, Siblings: 1, Parents: 1, Ticket Number: 11751, Fare: 52.5542, Cabin: D35 ,Embarked at: S
+
+Passenger ID: 249, Status: 1, Class: 1, Name:  Richard LeonardBeckwith, Gender: male, Age: 37.0, Siblings: 1, Parents: 1, Ticket Number: 11751, Fare: 52.5542, Cabin: D35 ,Embarked at: S
+
+Passenger ID: 285, Status: 0, Class: 1, Name:  Richard WilliamSmith, Gender: male, Age: null, Siblings: 0, Parents: 0, Ticket Number: 113056, Fare: 26.0, Cabin: A19 ,Embarked at: S
+
+Passenger ID: 816, Status: 0, Class: 1, Name:  RichardFry, Gender: male, Age: null, Siblings: 0, Parents: 0, Ticket Number: 112058, Fare: 0.0, Cabin: B102 ,Embarked at: S
+
+Passenger ID: 796, Status: 0, Class: 2, Name:  RichardOtter, Gender: male, Age: 39.0, Siblings: 0, Parents: 0, Ticket Number: 28213, Fare: 13.0, Cabin:  ,Embarked at: S
+
+Passenger ID: 795, Status: 0, Class: 3, Name:  RistiuDantcheff, Gender: male, Age: 25.0, Siblings: 0, Parents: 0, Ticket Number: 349203, Fare: 7.8958, Cabin:  ,Embarked at: S
+
+Passenger ID: 733, Status: 0, Class: 2, Name:  Robert JKnight, Gender: male, Age: null, Siblings: 0, Parents: 0, Ticket Number: 239855, Fare: 0.0, Cabin:  ,Embarked at: S
+
+Passenger ID: 197, Status: 0, Class: 3, Name:  RobertMernagh, Gender: male, Age: null, Siblings: 0, Parents: 0, Ticket Number: 368703, Fare: 7.75, Cabin:  ,Embarked at: Q
+
+Passenger ID: 586, Status: 1, Class: 1, Name:  RuthTaussig, Gender: female, Age: 18.0, Siblings: 0, Parents: 2, Ticket Number: 110413, Fare: 79.65, Cabin: E68 ,Embarked at: S
+
+Passenger ID: 623, Status: 1, Class: 3, Name:  SahidNakid, Gender: male, Age: 20.0, Siblings: 1, Parents: 1, Ticket Number: 2653, Fare: 15.7417, Cabin:  ,Embarked at: C
+
+Passenger ID: 856, Status: 1, Class: 3, Name:  Sam Leah RosenAks, Gender: female, Age: 18.0, Siblings: 0, Parents: 1, Ticket Number: 392091, Fare: 9.35, Cabin:  ,Embarked at: S
+
+Passenger ID: 875, Status: 1, Class: 2, Name:  Samuel Hannah WizoskyAbelson, Gender: female, Age: 28.0, Siblings: 1, Parents: 0, Ticket Number: P/PP 3381, Fare: 24.0, Cabin:  ,Embarked at: C
+
+Passenger ID: 374, Status: 0, Class: 1, Name:  SanteRinghini, Gender: male, Age: 22.0, Siblings: 0, Parents: 0, Ticket Number: PC 17760, Fare: 135.6333, Cabin:  ,Embarked at: C
+
+Passenger ID: 523, Status: 0, Class: 3, Name:  SarkisLahoud, Gender: male, Age: null, Siblings: 0, Parents: 0, Ticket Number: 2624, Fare: 7.225, Cabin:  ,Embarked at: C
+
+Passenger ID: 406, Status: 0, Class: 2, Name:  ShadrachGale, Gender: male, Age: 34.0, Siblings: 1, Parents: 0, Ticket Number: 28664, Fare: 21.0, Cabin:  ,Embarked at: S
+
+Passenger ID: 438, Status: 1, Class: 2, Name:  Sidney Emily HockingRichards, Gender: female, Age: 24.0, Siblings: 2, Parents: 3, Ticket Number: 29106, Fare: 18.75, Cabin:  ,Embarked at: S
+
+Passenger ID: 601, Status: 1, Class: 2, Name:  Sidney Samuel Amy Frances ChristyJacobsohn, Gender: female, Age: 24.0, Siblings: 2, Parents: 1, Ticket Number: 243847, Fare: 27.0, Cabin:  ,Embarked at: S
+
+Passenger ID: 218, Status: 0, Class: 2, Name:  Sidney SamuelJacobsohn, Gender: male, Age: 42.0, Siblings: 1, Parents: 0, Ticket Number: 243847, Fare: 27.0, Cabin:  ,Embarked at: S
+
+Passenger ID: 543, Status: 0, Class: 3, Name:  Sigrid ElisabethAndersson, Gender: female, Age: 11.0, Siblings: 4, Parents: 2, Ticket Number: 347082, Fare: 31.275, Cabin:  ,Embarked at: S
+
+Passenger ID: 44, Status: 1, Class: 2, Name:  Simonne Marie Anne AndreeLaroche, Gender: female, Age: 3.0, Siblings: 1, Parents: 2, Ticket Number: SC/Paris 2123, Fare: 41.5792, Cabin:  ,Embarked at: C
+
+Passenger ID: 245, Status: 0, Class: 3, Name:  SleimanAttalah, Gender: male, Age: 30.0, Siblings: 0, Parents: 0, Ticket Number: 2694, Fare: 7.225, Cabin:  ,Embarked at: C
+
+Passenger ID: 702, Status: 1, Class: 1, Name:  Spencer VictorSilverthorne, Gender: male, Age: 35.0, Siblings: 0, Parents: 0, Ticket Number: PC 17475, Fare: 26.2875, Cabin: E24 ,Embarked at: S
+
+Passenger ID: 421, Status: 0, Class: 3, Name:  StanioGheorgheff, Gender: male, Age: null, Siblings: 0, Parents: 0, Ticket Number: 349254, Fare: 7.8958, Cabin:  ,Embarked at: C
+
+Passenger ID: 71, Status: 0, Class: 2, Name:  Stephen CurnowJenkin, Gender: male, Age: 32.0, Siblings: 0, Parents: 0, Ticket Number: C.A. 33111, Fare: 10.5, Cabin:  ,Embarked at: S
+
+Passenger ID: 340, Status: 0, Class: 1, Name:  Stephen WeartBlackwell, Gender: male, Age: 45.0, Siblings: 0, Parents: 0, Ticket Number: 113784, Fare: 35.5, Cabin: T ,Embarked at: S
+
+Passenger ID: 237, Status: 0, Class: 2, Name:  StephenHold, Gender: male, Age: 44.0, Siblings: 1, Parents: 0, Ticket Number: 26707, Fare: 26.0, Cabin:  ,Embarked at: S
+
+Passenger ID: 106, Status: 0, Class: 3, Name:  StoytchoMionoff, Gender: male, Age: 28.0, Siblings: 0, Parents: 0, Ticket Number: 349207, Fare: 7.8958, Cabin:  ,Embarked at: S
+
+Passenger ID: 569, Status: 0, Class: 3, Name:  TannousDoharr, Gender: male, Age: null, Siblings: 0, Parents: 0, Ticket Number: 2686, Fare: 7.2292, Cabin:  ,Embarked at: C
+
+Passenger ID: 241, Status: 0, Class: 3, Name:  ThamineZabour, Gender: female, Age: null, Siblings: 1, Parents: 0, Ticket Number: 2665, Fare: 14.4542, Cabin:  ,Embarked at: C
+
+Passenger ID: 43, Status: 0, Class: 3, Name:  TheodorKraeff, Gender: male, Age: null, Siblings: 0, Parents: 0, Ticket Number: 349253, Fare: 7.8958, Cabin:  ,Embarked at: C
+
+Passenger ID: 287, Status: 1, Class: 3, Name:  Theodorede, Gender: male, Age: 30.0, Siblings: 0, Parents: 0, Ticket Number: 345774, Fare: 9.5, Cabin:  ,Embarked at: S
+
+Passenger ID: 416, Status: 0, Class: 3, Name:  Thomas Annie Louise RowleyMeek, Gender: female, Age: null, Siblings: 0, Parents: 0, Ticket Number: 343095, Fare: 8.05, Cabin:  ,Embarked at: S
+
+Passenger ID: 842, Status: 0, Class: 2, Name:  Thomas CharlesMudd, Gender: male, Age: 16.0, Siblings: 0, Parents: 0, Ticket Number: S.O./P.P. 3, Fare: 10.5, Cabin:  ,Embarked at: S
+
+Passenger ID: 337, Status: 0, Class: 1, Name:  Thomas ClintonPears, Gender: male, Age: 29.0, Siblings: 1, Parents: 0, Ticket Number: 113776, Fare: 66.6, Cabin: C2 ,Embarked at: S
+
+Passenger ID: 680, Status: 1, Class: 1, Name:  Thomas Drake MartinezCardeza, Gender: male, Age: 36.0, Siblings: 0, Parents: 1, Ticket Number: PC 17755, Fare: 512.3292, Cabin: B51 B53 B55 ,Embarked at: C
+
+Passenger ID: 152, Status: 1, Class: 1, Name:  Thomas Edith WearnePears, Gender: female, Age: 22.0, Siblings: 1, Parents: 0, Ticket Number: 113776, Fare: 66.6, Cabin: C2 ,Embarked at: S
+
+Passenger ID: 348, Status: 1, Class: 3, Name:  Thomas Henry Mary E FinckDavison, Gender: female, Age: null, Siblings: 1, Parents: 0, Ticket Number: 386525, Fare: 16.1, Cabin:  ,Embarked at: S
+
+Passenger ID: 160, Status: 0, Class: 3, Name:  Thomas HenrySage, Gender: male, Age: null, Siblings: 8, Parents: 2, Ticket Number: CA. 2343, Fare: 69.55, Cabin:  ,Embarked at: S
+
+Passenger ID: 779, Status: 0, Class: 3, Name:  Thomas JKilgannon, Gender: male, Age: null, Siblings: 0, Parents: 0, Ticket Number: 36865, Fare: 7.7375, Cabin:  ,Embarked at: Q
+
+Passenger ID: 187, Status: 1, Class: 3, Name:  Thomas Johanna Hannah GodfreyOBrien, Gender: female, Age: null, Siblings: 1, Parents: 0, Ticket Number: 370365, Fare: 15.5, Cabin:  ,Embarked at: Q
+
+Passenger ID: 829, Status: 1, Class: 3, Name:  Thomas JosephMcCormack, Gender: male, Age: null, Siblings: 0, Parents: 0, Ticket Number: 367228, Fare: 7.75, Cabin:  ,Embarked at: Q
+
+Passenger ID: 880, Status: 1, Class: 1, Name:  Thomas Jr Lily Alexenia WilsonPotter, Gender: female, Age: 56.0, Siblings: 0, Parents: 1, Ticket Number: 11767, Fare: 83.1583, Cabin: C50 ,Embarked at: C
+
+Passenger ID: 807, Status: 0, Class: 1, Name:  Thomas JrAndrews, Gender: male, Age: 39.0, Siblings: 0, Parents: 0, Ticket Number: 112050, Fare: 0.0, Cabin: A36 ,Embarked at: S
+
+Passenger ID: 759, Status: 0, Class: 3, Name:  Thomas LeonardTheobald, Gender: male, Age: 34.0, Siblings: 0, Parents: 0, Ticket Number: 363294, Fare: 8.05, Cabin:  ,Embarked at: S
+
+Passenger ID: 150, Status: 0, Class: 2, Name:  Thomas Roussel DavidsByles, Gender: male, Age: 42.0, Siblings: 0, Parents: 0, Ticket Number: 244310, Fare: 13.0, Cabin:  ,Embarked at: S
+
+Passenger ID: 561, Status: 0, Class: 3, Name:  Thomas RowanMorrow, Gender: male, Age: null, Siblings: 0, Parents: 0, Ticket Number: 372622, Fare: 7.75, Cabin:  ,Embarked at: Q
+
+Passenger ID: 671, Status: 1, Class: 2, Name:  Thomas William Solomon Elizabeth Catherine FordBrown, Gender: female, Age: 40.0, Siblings: 1, Parents: 1, Ticket Number: 29750, Fare: 39.0, Cabin:  ,Embarked at: S
+
+Passenger ID: 685, Status: 0, Class: 2, Name:  Thomas William SolomonBrown, Gender: male, Age: 60.0, Siblings: 1, Parents: 1, Ticket Number: 29750, Fare: 39.0, Cabin:  ,Embarked at: S
+
+Passenger ID: 365, Status: 0, Class: 3, Name:  ThomasOBrien, Gender: male, Age: null, Siblings: 1, Parents: 0, Ticket Number: 370365, Fare: 15.5, Cabin:  ,Embarked at: Q
+
+Passenger ID: 261, Status: 0, Class: 3, Name:  ThomasSmith, Gender: male, Age: null, Siblings: 0, Parents: 0, Ticket Number: 384461, Fare: 7.75, Cabin:  ,Embarked at: Q
+
+Passenger ID: 683, Status: 0, Class: 3, Name:  Thor AndersonOlsvigen, Gender: male, Age: 20.0, Siblings: 0, Parents: 0, Ticket Number: 6563, Fare: 9.225, Cabin:  ,Embarked at: S
+
+Passenger ID: 672, Status: 0, Class: 1, Name:  ThorntonDavidson, Gender: male, Age: 31.0, Siblings: 1, Parents: 0, Ticket Number: F.C. 12750, Fare: 52.0, Cabin: B71 ,Embarked at: S
+
+Passenger ID: 7, Status: 0, Class: 1, Name:  Timothy JMcCarthy, Gender: male, Age: 54.0, Siblings: 0, Parents: 0, Ticket Number: 17463, Fare: 51.8625, Cabin: E46 ,Embarked at: S
+
+Passenger ID: 553, Status: 0, Class: 3, Name:  TimothyOBrien, Gender: male, Age: null, Siblings: 0, Parents: 0, Ticket Number: 330979, Fare: 7.8292, Cabin:  ,Embarked at: Q
+
+Passenger ID: 742, Status: 0, Class: 1, Name:  Tyrell WilliamCavendish, Gender: male, Age: 36.0, Siblings: 1, Parents: 0, Ticket Number: 19877, Fare: 78.85, Cabin: C46 ,Embarked at: S
+
+Passenger ID: 825, Status: 0, Class: 3, Name:  Urho AbrahamPanula, Gender: male, Age: 2.0, Siblings: 4, Parents: 1, Ticket Number: 3101295, Fare: 39.6875, Cabin:  ,Embarked at: S
+
+Passenger ID: 585, Status: 0, Class: 3, Name:  UscherPaulner, Gender: male, Age: null, Siblings: 0, Parents: 0, Ticket Number: 3411, Fare: 8.7125, Cabin:  ,Embarked at: C
+
+Passenger ID: 385, Status: 0, Class: 3, Name:  VasilPlotcharsky, Gender: male, Age: null, Siblings: 0, Parents: 0, Ticket Number: 349227, Fare: 7.8958, Cabin:  ,Embarked at: S
+
+Passenger ID: 555, Status: 1, Class: 3, Name:  VelinOhman, Gender: female, Age: 22.0, Siblings: 0, Parents: 0, Ticket Number: 347085, Fare: 7.775, Cabin:  ,Embarked at: S
+
+Passenger ID: 255, Status: 0, Class: 3, Name:  Viktor Helena WilhelminaRosblom, Gender: female, Age: 41.0, Siblings: 0, Parents: 2, Ticket Number: 370129, Fare: 20.2125, Cabin:  ,Embarked at: S
+
+Passenger ID: 425, Status: 0, Class: 3, Name:  Viktor RichardRosblom, Gender: male, Age: 18.0, Siblings: 1, Parents: 1, Ticket Number: 370129, Fare: 20.2125, Cabin:  ,Embarked at: S
+
+Passenger ID: 778, Status: 1, Class: 3, Name:  Virginia EthelEmanuel, Gender: female, Age: 5.0, Siblings: 0, Parents: 0, Ticket Number: 364516, Fare: 12.475, Cabin:  ,Embarked at: S
+
+Passenger ID: 592, Status: 1, Class: 1, Name:  Walter Bertram Martha EustisStephenson, Gender: female, Age: 52.0, Siblings: 1, Parents: 0, Ticket Number: 36947, Fare: 78.2667, Cabin: D20 ,Embarked at: C
+
+Passenger ID: 111, Status: 0, Class: 1, Name:  Walter ChamberlainPorter, Gender: male, Age: 47.0, Siblings: 0, Parents: 0, Ticket Number: 110465, Fare: 52.0, Cabin: C110 ,Embarked at: S
+
+Passenger ID: 868, Status: 0, Class: 1, Name:  Washington Augustus IIRoebling, Gender: male, Age: 31.0, Siblings: 0, Parents: 0, Ticket Number: PC 17590, Fare: 50.4958, Cabin: A24 ,Embarked at: S
+
+Passenger ID: 446, Status: 1, Class: 1, Name:  WashingtonDodge, Gender: male, Age: 4.0, Siblings: 0, Parents: 2, Ticket Number: 33638, Fare: 81.8583, Cabin: A34 ,Embarked at: S
+
+Passenger ID: 252, Status: 0, Class: 3, Name:  Wilhelm Elna Matilda PerssonStrom, Gender: female, Age: 29.0, Siblings: 1, Parents: 1, Ticket Number: 347054, Fare: 10.4625, Cabin: G6 ,Embarked at: S
+
+Passenger ID: 361, Status: 0, Class: 3, Name:  WilhelmSkoog, Gender: male, Age: 40.0, Siblings: 1, Parents: 4, Ticket Number: 347088, Fare: 27.9, Cabin:  ,Embarked at: S
+
+Passenger ID: 519, Status: 1, Class: 2, Name:  William A Florence Mary Agnes HughesAngle, Gender: female, Age: 36.0, Siblings: 1, Parents: 0, Ticket Number: 226875, Fare: 26.0, Cabin:  ,Embarked at: S
+
+Passenger ID: 168, Status: 0, Class: 3, Name:  William Anna Bernhardina KarlssonSkoog, Gender: female, Age: 45.0, Siblings: 1, Parents: 4, Ticket Number: 347088, Fare: 27.9, Cabin:  ,Embarked at: S
+
+Passenger ID: 313, Status: 0, Class: 2, Name:  William Anna SylfvenLahtinen, Gender: female, Age: 26.0, Siblings: 1, Parents: 1, Ticket Number: 250651, Fare: 26.0, Cabin:  ,Embarked at: S
+
+Passenger ID: 618, Status: 0, Class: 3, Name:  William Arthur Cordelia K StanlickLobb, Gender: female, Age: 26.0, Siblings: 1, Parents: 0, Ticket Number: A/5. 3336, Fare: 16.1, Cabin:  ,Embarked at: S
+
+Passenger ID: 254, Status: 0, Class: 3, Name:  William ArthurLobb, Gender: male, Age: 30.0, Siblings: 1, Parents: 0, Ticket Number: A/5. 3336, Fare: 16.1, Cabin:  ,Embarked at: S
+
+Passenger ID: 303, Status: 0, Class: 3, Name:  William Cahoone JrJohnson, Gender: male, Age: 19.0, Siblings: 0, Parents: 0, Ticket Number: LINE, Fare: 0.0, Cabin:  ,Embarked at: S
+
+Passenger ID: 246, Status: 0, Class: 1, Name:  William EdwardMinahan, Gender: male, Age: 44.0, Siblings: 2, Parents: 0, Ticket Number: 19928, Fare: 90.0, Cabin: C78 ,Embarked at: Q
+
+Passenger ID: 794, Status: 0, Class: 1, Name:  William FisherHoyt, Gender: male, Age: null, Siblings: 0, Parents: 0, Ticket Number: PC 17600, Fare: 30.6958, Cabin:  ,Embarked at: C
+
+Passenger ID: 634, Status: 0, Class: 1, Name:  William Henry MarshParr, Gender: male, Age: null, Siblings: 0, Parents: 0, Ticket Number: 112052, Fare: 0.0, Cabin:  ,Embarked at: S
+
+Passenger ID: 881, Status: 1, Class: 2, Name:  William Imanita Parrish HallShelley, Gender: female, Age: 25.0, Siblings: 0, Parents: 1, Ticket Number: 230433, Fare: 26.0, Cabin:  ,Embarked at: S
+
+Passenger ID: 42, Status: 0, Class: 2, Name:  William John Robert Dorothy Ann WonnacottTurpin, Gender: female, Age: 27.0, Siblings: 1, Parents: 0, Ticket Number: 11668, Fare: 21.0, Cabin:  ,Embarked at: S
+
+Passenger ID: 118, Status: 0, Class: 2, Name:  William John RobertTurpin, Gender: male, Age: 29.0, Siblings: 1, Parents: 0, Ticket Number: 11668, Fare: 21.0, Cabin:  ,Embarked at: S
+
+Passenger ID: 734, Status: 0, Class: 2, Name:  William JohnBerriman, Gender: male, Age: 23.0, Siblings: 0, Parents: 0, Ticket Number: 28425, Fare: 13.0, Cabin:  ,Embarked at: S
+
+Passenger ID: 419, Status: 0, Class: 2, Name:  William JohnMatthews, Gender: male, Age: 30.0, Siblings: 0, Parents: 0, Ticket Number: 28228, Fare: 13.0, Cabin:  ,Embarked at: S
+
+Passenger ID: 227, Status: 1, Class: 2, Name:  William JohnMellors, Gender: male, Age: 19.0, Siblings: 0, Parents: 0, Ticket Number: SW/PP 751, Fare: 10.5, Cabin:  ,Embarked at: S
+
+Passenger ID: 46, Status: 0, Class: 3, Name:  William JohnRogers, Gender: male, Age: null, Siblings: 0, Parents: 0, Ticket Number: S.C./A.4. 23567, Fare: 8.05, Cabin:  ,Embarked at: S
+
+Passenger ID: 349, Status: 1, Class: 3, Name:  William Loch WilliamCoutts, Gender: male, Age: 3.0, Siblings: 1, Parents: 1, Ticket Number: C.A. 37671, Fare: 15.9, Cabin:  ,Embarked at: S
+
+Passenger ID: 408, Status: 1, Class: 2, Name:  William RoweRichards, Gender: male, Age: 3.0, Siblings: 1, Parents: 1, Ticket Number: 29106, Fare: 18.75, Cabin:  ,Embarked at: S
+
+Passenger ID: 373, Status: 0, Class: 3, Name:  William ThomasBeavan, Gender: male, Age: 19.0, Siblings: 0, Parents: 0, Ticket Number: 323951, Fare: 8.05, Cabin:  ,Embarked at: S
+
+Passenger ID: 253, Status: 0, Class: 1, Name:  William ThomasStead, Gender: male, Age: 62.0, Siblings: 0, Parents: 0, Ticket Number: 113514, Fare: 26.55, Cabin: C87 ,Embarked at: S
+
+Passenger ID: 269, Status: 1, Class: 1, Name:  William Thompson Edith JunkinsGraham, Gender: female, Age: 58.0, Siblings: 0, Parents: 1, Ticket Number: PC 17582, Fare: 153.4625, Cabin: C125 ,Embarked at: S
+
+Passenger ID: 24, Status: 1, Class: 1, Name:  William ThompsonSloper, Gender: male, Age: 28.0, Siblings: 0, Parents: 0, Ticket Number: 113788, Fare: 35.5, Cabin: A6 ,Embarked at: S
+
+Passenger ID: 803, Status: 1, Class: 1, Name:  William Thornton IICarter, Gender: male, Age: 11.0, Siblings: 1, Parents: 2, Ticket Number: 113760, Fare: 120.0, Cabin: B96 B98 ,Embarked at: S
+
+Passenger ID: 799, Status: 0, Class: 3, Name:  YousseffIbrahim, Gender: male, Age: 30.0, Siblings: 0, Parents: 0, Ticket Number: 2685, Fare: 7.2292, Cabin:  ,Embarked at: C
+
+Passenger ID: 760, Status: 1, Class: 1, Name:  of Lucy Noel Martha DyerEdwardsRothes, Gender: female, Age: 33.0, Siblings: 0, Parents: 0, Ticket Number: 110152, Fare: 86.5, Cabin: B77 ,Embarked at: S
+
