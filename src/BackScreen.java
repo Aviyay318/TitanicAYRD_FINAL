@@ -4,7 +4,7 @@ import java.util.*;
 public class BackScreen {
     private static int fileNumber;
     private List<Passenger> passengers;
-
+    private   List <Passenger> passengerFilter;
     public BackScreen() {
         this.fileNumber = 0;
         this.passengers = new ArrayList<>();
@@ -13,36 +13,74 @@ public class BackScreen {
 
     public String filter(String pClass,String gender,String embarked,String passengerName,String ticketNumber,String cabin,String passengerNumMin,String passengerNumMax,String sibSp,
                          String ticketCostMin,String ticketCostMax,String parCh){
-        List <Passenger> passengerFilter = new ArrayList<>();
-        passengerNameFilter(passengerFilter,passengerName);
-        ticketNumberFilter(passengerFilter,ticketNumber);
-        cabinFilter(passengerFilter,cabin);
-        pClassFilter(passengerFilter,pClass);
-        genderFilter(passengerFilter,gender);
-        embarkedFilter(passengerFilter,embarked);
-        passengerNumMinFilter(passengerFilter,passengerNumMin);
-        passengerNumMaxFilter(passengerFilter,passengerNumMax);
-        sibSpFilter(passengerFilter,sibSp);
-        ticketCostMinFilter(passengerFilter,ticketCostMin);
-        ticketCostMaxFilter(passengerFilter,ticketCostMax);
-        parChFilter(passengerFilter,parCh);
-        orderByName(passengerFilter);
-        createFilterSCV(passengerFilter);
-        System.out.println(passengerFilter);
-        String result = "Total Row: " + passengerFilter.size()+ " Survived: " +
-                howManySurvived(passengerFilter) +" dead "+ ( howMuchNotSurvived(passengerFilter));
+        this.passengerFilter = new ArrayList<>();
+        windowFilter(pClass,gender,passengerName,embarked,ticketNumber,cabin,passengerNumMin,passengerNumMax,sibSp,ticketCostMin,ticketCostMax,parCh);
+        System.out.println(this.passengerFilter);
+        createFilterSCV();
+        String result = "Total Row: " + this.passengerFilter.size()+ " Survived: " +
+                howManySurvived(this.passengerFilter) +" dead "+ ( howMuchNotSurvived(this.passengerFilter));
         return result;
     }
+   private void windowFilter(String pClass,String gender,String passengerName,String embarked,String ticketNumber,
+                             String cabin,String passengerNumMin,String passengerNumMax,String sibSp,String ticketCostMin,
+                             String ticketCostMax,String parCh){
+        boolean isValid =  true;
+       for (Passenger passenger: this.passengers) {
+           if (!pClass.equals("All")){
+               if (!passenger.identicalPClass(returnClassNumber(pClass))) {
+                   isValid = false;
+               }} if (!gender.equals("All")){
+               if (!passenger.identicalGender(gender) ){
+                  isValid=false;
+               }}if (!passengerName.equals("")){
+               if (!passenger.isContainedInName(passengerName)) {
+                   isValid=false;
+               }}  if (!embarked.equals("")){
+               if (!passenger.identicalEmbarked(returnEmbarked(embarked))) {
+                   isValid=false;
+               }} if (!ticketNumber.equals("")){
+               if (!passenger.isContainedInTicket(ticketNumber)) {
+                   isValid = false;
+               }}if (!cabin.equals("")){
+               if (!passenger.isContainedInCabin(cabin)) {
+                   isValid= false;
+               }}
+           if (!passengerNumMin.equals("")){
+               if (!passenger.isBiggerId(Integer.parseInt(passengerNumMin))){ ///////min-max
+                   isValid= false;
+               }} if (!passengerNumMax.equals("")){
+               if (passenger.isBiggerId(Integer.parseInt(passengerNumMax))){
+                   isValid = false;
+               }} if (!sibSp.equals("")){
+               if (!passenger.isContainedInSibSp(sibSp)){
+                   isValid=false;
+               }}if (!ticketCostMin.equals("")){
+               if (!passenger.isBiggerFare(Float.valueOf(ticketCostMin))){
+                   isValid=false;
+               }}if (!ticketCostMax.equals("")){
+               if (passenger.isBiggerFare(Float.valueOf(ticketCostMax))){
+                   isValid=false;
+               }} if (!parCh.equals("")){
+               if (!passenger.isContainedInParCh(Integer.parseInt(parCh))){
+                  isValid=false;
+               }}
+           if (isValid){
+               this.passengerFilter.add(passenger);
+           }else {
+               isValid=true;
+           }
+       }
+   }
 
 
-    private  void pClassFilter(List <Passenger> passengerFilter, String pClass){
+    private  void pClassFilter(String pClass){
         for (Passenger passenger: this.passengers) {
             if (!pClass.equals("All")){
                 if (!passenger.identicalPClass(returnClassNumber(pClass))) {
-                    passengerFilter.remove(passenger);
+                    this.passengerFilter.remove(passenger);
                 }}}
     }
-    private  void genderFilter( List <Passenger> passengerFilter,String gender){
+    private  void removeGenderFilter(String gender){
         for (Passenger passenger: this.passengers) {
             if (!gender.equals("All")){
                 if (!passenger.identicalGender(gender) ){
@@ -63,8 +101,11 @@ public class BackScreen {
         for (Passenger passenger: this.passengers) {
             if (!passengerName.equals("")){
                 if (passenger.isContainedInName(passengerName)) {
-                    passengerFilter.add(passenger);
-                }}}
+                    this.passengerFilter.add(passenger);
+                }}else {
+                this.passengerFilter.add(passenger);
+            }
+        }
     }
 
     private  void embarkedFilter( List <Passenger> passengerFilter,String embarked){
@@ -82,17 +123,15 @@ public class BackScreen {
         }
         return embarkedNum;
     }
-
-    private  void ticketNumberFilter( List <Passenger> passengerFilter,String ticketNumber){
-        for (Passenger passenger: this.passengers) {
-            if (!ticketNumber.equals("")){
-                if (!passenger.isContainedInTicket(ticketNumber)) {
-                    passengerFilter.remove(passenger);
-                }}}
+    private  void ticketNumberFilter(String ticketNumber){
+            for (Passenger passenger: this.passengerFilter) {
+                if (!ticketNumber.equals("")){
+                    if (!passenger.isContainedInTicket(ticketNumber)) {
+                        this.passengerFilter.remove(passenger);
+                    }}}
     }
-
-    private  void cabinFilter( List <Passenger> passengerFilter,String cabin){
-        for (Passenger passenger: this.passengers) {
+    private  void cabinFilter(String cabin){
+        for (Passenger passenger: this.passengerFilter) {
             if (!cabin.equals("")){
                 if (!passenger.isContainedInCabin(cabin)) {
                     passengerFilter.remove(passenger);
@@ -100,26 +139,25 @@ public class BackScreen {
             }
 
         }}
-
-    private  void passengerNumMinFilter( List <Passenger> passengerFilter,String passengerNumMin){
-        for (Passenger passenger: this.passengers) {
+    private  void passengerNumMinFilter( String passengerNumMin){
+        for (Passenger passenger: this.passengerFilter) {
             if (!passengerNumMin.equals("")){
                 if (!passenger.isBiggerId(Integer.parseInt(passengerNumMin))){
                     passengerFilter.remove(passenger);
                 }
             }
         }}
-    private  void passengerNumMaxFilter( List <Passenger> passengerFilter,String passengerNumMax){
-        for (Passenger passenger: this.passengers) {
+    private  void passengerNumMaxFilter( String passengerNumMax){
+        for (Passenger passenger: this.passengerFilter) {
             if (!passengerNumMax.equals("")){
                 if (passenger.isBiggerId(Integer.parseInt(passengerNumMax))){
                     passengerFilter.remove(passenger);
                 }
             }
-        }}
-
-    private  void sibSpFilter( List <Passenger> passengerFilter,String sibSp){
-        for (Passenger passenger: this.passengers) {
+        }
+    }
+    private  void sibSpFilter(String sibSp){
+        for (Passenger passenger: this.passengerFilter) {
             if (!sibSp.equals("")){
                 if (!passenger.isContainedInSibSp(sibSp)){
                     passengerFilter.remove(passenger);
@@ -127,9 +165,8 @@ public class BackScreen {
             }
         }
     }
-
-    private  void ticketCostMinFilter(List <Passenger> passengerFilter,String ticketCostMin){
-        for (Passenger passenger: this.passengers) {
+    private  void ticketCostMinFilter(String ticketCostMin){
+        for (Passenger passenger: this.passengerFilter) {
             if (!ticketCostMin.equals("")){
                 if (!passenger.isBiggerFare(Float.valueOf(ticketCostMin))){
                     passengerFilter.remove(passenger);
@@ -137,8 +174,8 @@ public class BackScreen {
             }
         }
     }
-    private  void ticketCostMaxFilter(List <Passenger> passengerFilter,String ticketCostMax){
-        for (Passenger passenger: this.passengers) {
+    private  void ticketCostMaxFilter(String ticketCostMax){
+        for (Passenger passenger: this.passengerFilter) {
             if (!ticketCostMax.equals("")){
                 if (passenger.isBiggerFare(Float.valueOf(ticketCostMax))){
                     passengerFilter.remove(passenger);
@@ -146,9 +183,8 @@ public class BackScreen {
             }
         }
     }
-
-    private  void parChFilter( List <Passenger> passengerFilter,String parCh){
-        for (Passenger passenger: this.passengers) {
+    private  void parChFilter(String parCh){
+        for (Passenger passenger: this.passengerFilter) {
             if (!parCh.equals("")){
                 if (!passenger.isContainedInParCh(Integer.parseInt(parCh))){
                     passengerFilter.remove(passenger);
@@ -368,6 +404,7 @@ public class BackScreen {
             }
         }
         return genderFilter;
+
     }
 
     private List<Passenger> embarkedFilter(char embarked) {
@@ -380,14 +417,14 @@ public class BackScreen {
         return embarkedFilter;
     }
 
-    private void createFilterSCV(List<Passenger> passengerFilter){
+    private void createFilterSCV(){
         this.fileNumber++;
         String fileName = Integer.toString(this.fileNumber);
         File file = new File(fileName+".csv");
         try {
             PrintWriter printWriter = new PrintWriter(file);
 
-            for (Passenger passenger:passengerFilter) {
+            for (Passenger passenger:this.passengerFilter) {
                 printWriter.println(passenger.toString());
             }
             printWriter.close();
