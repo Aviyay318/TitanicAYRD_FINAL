@@ -113,78 +113,52 @@ public class BackScreen {
     }
     private String classStatist() {
         String classStatistLinens = "";
-        float all;
-        float survived;
-        float result;
         for (int i=1;i<=3;i++){
             List<Passenger> classFilter = classFilter(i);
-            all = classFilter.size();
-            survived = howManySurvived(classFilter);
-            result= (survived/all)*Constants.ONE_HUNDRED_PERCENT;
             classStatistLinens +=" "+"Class " + i + ": ";
-            classStatistLinens+=Float.toString(result)+"%" + "\n";
+            classStatistLinens+=Float.toString(percentageCalculation(classFilter.size(),classFilter))+"%" + "\n";
         }
         return classStatistLinens;
     }
+    private Float percentageCalculation(float all, List<Passenger> statistFilterPassenger){
+       float survived = howManySurvived(statistFilterPassenger);
+        return (survived/all)*Constants.ONE_HUNDRED_PERCENT;
+    }
     private String embarkedStatist() {
         String embarkedStatistLinens = "";
-        float all;
-        float survived;
-        float result;
         String embarkeds = "SQC";
         for (int i=0;i<embarkeds.length();i++){
-            List<Passenger> classFilter = embarkedFilter(embarkeds.charAt(i));
-            all = classFilter.size();
-            survived = howManySurvived(classFilter);
-            result= (survived/all)*100;
+            List<Passenger> embarkedFilter = embarkedFilter(embarkeds.charAt(i));
             embarkedStatistLinens +=" "+"Embarked" + embarkeds.charAt(i) + ": ";
-            embarkedStatistLinens+=Float.toString(result)+"%" + "\n";
+            embarkedStatistLinens+=Float.toString(percentageCalculation(embarkedFilter.size(),embarkedFilter))+"%" + "\n";
         }
         return embarkedStatistLinens;
     }
     private String genderStatistics() {
         String genderStatistLinens = "";
-        float all;
-        float survived;
-        float result;
         for (int i=0;i<=1;i++){
             List<Passenger> genderFilter = genderFilter(Constants.GENDERS[i]);
-            all = genderFilter.size();
-            survived = howManySurvived(genderFilter);
-            result= (survived/all)*Constants.ONE_HUNDRED_PERCENT;
             genderStatistLinens +=" "+Constants.GENDERS[i]+ ": ";
-            genderStatistLinens+=Float.toString(result)+"%" + "\n";
+            genderStatistLinens+=Float.toString(percentageCalculation(genderFilter.size(),genderFilter))+"%" + "\n";
         }
         return genderStatistLinens;
     }
     private String ageStatistics(){
         String classStatistLinens = "";
-        float all;
-        float survived;
-        float result;
         for (int i=1;i<=6;i++){
             List<Passenger> ageFilter = ageFilter(i);
-            all = ageFilter.size();
-            survived = howManySurvived(ageFilter);
-            result= (survived/all)*Constants.ONE_HUNDRED_PERCENT;
             classStatistLinens +=" "+Constants.AGES[i-1]+ ": ";
-            classStatistLinens+=Float.toString(result)+"%" + "\n";
+            classStatistLinens+=Float.toString(percentageCalculation(ageFilter.size(),ageFilter))+"%" + "\n";
         }
 
         return classStatistLinens;
     }
     private String fareStatistics(){
         String classStatistLinens = "";
-        float all;
-        float survived;
-        float result;
         for (int i=1;i<=3;i++){
             List<Passenger> fareFilter = fareFilter(i);
-            all = fareFilter.size();
-            survived = howManySurvived(fareFilter);
-            result= (survived/all)*Constants.ONE_HUNDRED_PERCENT;
             classStatistLinens +=" "+Constants.PRICES[i-1]+ ": ";
-            classStatistLinens+=Float.toString(result)+"%" + "\n";
+            classStatistLinens+=Float.toString(percentageCalculation(fareFilter.size(),fareFilter))+"%" + "\n";
         }
 
         return classStatistLinens;
@@ -200,28 +174,18 @@ public class BackScreen {
     }
     private String relativesStatistics() {
         String genderStatistLinens = "";
-        float all;
-        float survived;
-        float result;
         List<Passenger> noRelativesFilter = new ArrayList<>();
         List<Passenger> relativesFilter = new ArrayList<>();
-
         for (int i = 0; i < this.passengers.size(); i++) {
             if (this.passengers.get(i).sumRelatives() == Constants.NO_RELATIVES) {
                 noRelativesFilter.add(this.passengers.get(i));
             } else {
                 relativesFilter.add(this.passengers.get(i));
             }}
-            all = noRelativesFilter.size();
-            survived = howManySurvived(noRelativesFilter);
-            result = (survived / all) * Constants.ONE_HUNDRED_PERCENT;
             genderStatistLinens += " No relative: ";
-            genderStatistLinens += Float.toString(result) + "%"+"\n";
-            all = relativesFilter.size();
-            survived = howManySurvived(relativesFilter);
-            result = (survived / all) * Constants.ONE_HUNDRED_PERCENT;
+            genderStatistLinens += Float.toString(percentageCalculation(noRelativesFilter.size(),noRelativesFilter)) + "%"+"\n";
             genderStatistLinens += " At list one relative: ";
-            genderStatistLinens += Float.toString(result) + "%" + "\n";
+            genderStatistLinens += Float.toString(percentageCalculation(relativesFilter.size(),relativesFilter)) + "%" + "\n";
 
             return genderStatistLinens;
 
