@@ -40,6 +40,7 @@ public class Constants {
     public static final int BETWEEN_THIRTY_ONE_FORTY=4;
     public static final int BETWEEN_FORTY_ONE_FIFTY=5;
     public static final int FIFTY_ONE_PLUS=6;
+    public static final int NULL=7;
     public static final String[] PRICES = {"Less than 10 pounds", "Between 11 to 30 pounds", "30+ pounds"};
     public static final String[] AGES = {"Between 0 to 10", "Between 11 to 20", "Between 21 to 30", "Between 31 to 40", "Between 41 to 50", "51+"};
     public static final String[] GENDERS= {"male", "female"};

@@ -163,9 +163,12 @@ public class Passenger {
         return ticketFare;
     }
     public int ageCheck (){
-        int age= Constants.BETWEEN_ZERO_TEN;
+        int age= Constants.NULL;
         if (this.age!=null){
-            if (this.age>=11 && this.age<=20){
+            if (this.age>=0&&this.age<=10){
+                age= Constants.BETWEEN_ZERO_TEN;
+            }
+            else if (this.age>=11 && this.age<=20){
                 age=Constants.BETWEEN_ELEVEN_TWENTY;
             } else if (this.age>=21 && this.age<=30) {
                 age=Constants.BETWEEN_TWENTY_ONE_THIRTY;
